@@ -1,0 +1,5 @@
+<linker>
+    <assembly fullname="mscorlib">
+        <namespace fullname="System.Globalization" preserve="all"/>
+    </assembly>
+</linker>
