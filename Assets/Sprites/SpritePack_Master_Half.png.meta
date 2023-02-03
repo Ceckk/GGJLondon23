@@ -1,0 +1,4163 @@
+fileFormatVersion: 2
+guid: dea2d398602f6460892e1382514d93ef
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_0
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 2315
+        width: 63
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb1bc939a31441aba2788dd67add6ca
+      internalID: -1905254706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_1
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 2313
+        width: 61
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119550d5c4fd5414f81a4b2c907c6d92
+      internalID: 1132053411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_2
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 2310
+        width: 61
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d62d2cc94dbe4c2da0aa3a529406b4f
+      internalID: 528924582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_3
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 2309
+        width: 61
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb6005d2e963a41a4b1900eacc8cf475
+      internalID: 1025917962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_4
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 2303
+        width: 62
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6a8036c746644e583d9a88e9844614
+      internalID: -1012527738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_5
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 2303
+        width: 61
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0968a9eeba3f3451396f703a6d7c168a
+      internalID: -1595874198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_6
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 2310
+        width: 61
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99623c2b8f9564e7a9575742291e3110
+      internalID: 117107893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_7
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 2299
+        width: 108
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c197e50a2ce0d45e1a0724481706afbe
+      internalID: -793010182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_8
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 2309
+        width: 108
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dcc7a2335495480991a9863e6a96524
+      internalID: 799578082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_9
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 2316
+        width: 109
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360cee4631e9d4bdc9e2d6286fa8303b
+      internalID: 522678734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_10
+      rect:
+        serializedVersion: 2
+        x: 1873
+        y: 2304
+        width: 108
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72361c9b9ddeb4cc39bdba733273fc70
+      internalID: -1710866634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_11
+      rect:
+        serializedVersion: 2
+        x: 2052
+        y: 2307
+        width: 108
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9eaf16967724300893dfef3173acb0
+      internalID: 1434990042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_12
+      rect:
+        serializedVersion: 2
+        x: 2210
+        y: 2321
+        width: 108
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e86390b40f642e189d9522866e04f0
+      internalID: 1725862643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_13
+      rect:
+        serializedVersion: 2
+        x: 2380
+        y: 2331
+        width: 108
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88ba778b38014873829252c0154416c
+      internalID: -1301348913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_14
+      rect:
+        serializedVersion: 2
+        x: 2529
+        y: 2306
+        width: 120
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b6f167edc5448d4aa495c98094f05f
+      internalID: 1843106102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_15
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 2123
+        width: 99
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88c36638a39e4bb099df38367c7bccf
+      internalID: 1369207272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_16
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 2105
+        width: 91
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b235793df1f044a39e4067bfc535750
+      internalID: -949999392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_17
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 2120
+        width: 99
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3436e4ee460f8477a97a26ff5932babd
+      internalID: -961707892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_18
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 2108
+        width: 89
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0c6a87f35934b5cbd409206e6ba3cd
+      internalID: -247549361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_19
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 2108
+        width: 91
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459515e3ce7ce4a108faec603b0bb792
+      internalID: 705481691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_20
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 2108
+        width: 91
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3cd0ab0c12548ccb816b6f873e48c3
+      internalID: -703784592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_21
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 2089
+        width: 81
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6edde3b0af07c4cb1a0de5ed62ab3cdd
+      internalID: 1347696647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_22
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 1912
+        width: 107
+        height: 296
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c694045a4f248fa82fc5020ee3557f
+      internalID: -107281945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_23
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 1878
+        width: 106
+        height: 353
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e77be0c7d2fb4f17b3cb873f3ddb35a
+      internalID: -1740640956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_24
+      rect:
+        serializedVersion: 2
+        x: 2324
+        y: 2198
+        width: 61
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f898ade32024e5aa59a08c77589a7a
+      internalID: 607246820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_25
+      rect:
+        serializedVersion: 2
+        x: 2427
+        y: 2170
+        width: 61
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e55c725e1aa4009b836bbcdd3e45f2
+      internalID: -908078174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_26
+      rect:
+        serializedVersion: 2
+        x: 2555
+        y: 2162
+        width: 119
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3398a52d081ee4cf699e68d7469bd73a
+      internalID: 713942653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_27
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 2107
+        width: 57
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c889060d247bc45d682ea1c18057261e
+      internalID: 1036167496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_28
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 2104
+        width: 57
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ebd48f496614860a63e8ef78bdd37f
+      internalID: 1738971693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_29
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 2069
+        width: 98
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786872b07cd254212a5e6944c03d4c6e
+      internalID: -1608634886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_30
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 2072
+        width: 96
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c7df212f3cdd4480b9138a48fa8a2c8
+      internalID: -2035413808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_31
+      rect:
+        serializedVersion: 2
+        x: 1933
+        y: 2066
+        width: 92
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d6c92f93105940a7891fbdba2a1a515
+      internalID: 1005142972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_32
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 2069
+        width: 86
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a29f11bc3cd4027b295db5f8b0332c
+      internalID: -629901034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_33
+      rect:
+        serializedVersion: 2
+        x: 2186
+        y: 2044
+        width: 100
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ca8bbfb1d7a4f64a68f64767f1ba24
+      internalID: 480460842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_34
+      rect:
+        serializedVersion: 2
+        x: 2334
+        y: 2064
+        width: 62
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba2bacec1cdfe4fac890e6b08250b01f
+      internalID: 199827962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_35
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 2063
+        width: 62
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d8b6758504b842668866c5ee1732af5
+      internalID: 292269136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_36
+      rect:
+        serializedVersion: 2
+        x: 2558
+        y: 2000
+        width: 120
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a856e296bec4e72a5c34dcc57f1f2c
+      internalID: 580487726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_37
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1957
+        width: 99
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6183b98d739c45109414b17cd0c8fea
+      internalID: -1623624904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_38
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 1962
+        width: 91
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8e1ee633ed448c7a51d387a22c0129
+      internalID: 1515518995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_39
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1957
+        width: 99
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3736db76d40f4bcdbbbf3384ab65737
+      internalID: -1225140792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_40
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1962
+        width: 91
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ed995a9fbfd4fb0b08fca3747112d6
+      internalID: 2099821718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_41
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 1954
+        width: 99
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d55dc061eb4d43b8a4e8e6968514ee4
+      internalID: -471639145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_42
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 1946
+        width: 99
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d97fcf9f5c84d50bfa79cd1ded7524
+      internalID: -95583796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_43
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 1937
+        width: 82
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607e6c5df23f541feb2f2be6d0ea103f
+      internalID: -1374318534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_44
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 1928
+        width: 82
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c506db6d3c04adc876056a1b75d34c
+      internalID: 1699867617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_45
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 1938
+        width: 57
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28fe090c34b454aa2904761f41b12af9
+      internalID: -252597825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_46
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 1924
+        width: 96
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a675c903b8144606b35f94e9d336b9a
+      internalID: 1860092570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_47
+      rect:
+        serializedVersion: 2
+        x: 1781
+        y: 1933
+        width: 99
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 314d2acf11bb444fb8895f48d720784f
+      internalID: 1487898012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_48
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 1921
+        width: 97
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2ff558ebaeb45e38a7553d6b42c370
+      internalID: 983401172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_49
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 1919
+        width: 85
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c9ba9f512384d26803d949b8ade3dd
+      internalID: -1205227955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_50
+      rect:
+        serializedVersion: 2
+        x: 2211
+        y: 1893
+        width: 100
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d54d5deb0886e4be2888b4bdf069a7e7
+      internalID: -1649782860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_51
+      rect:
+        serializedVersion: 2
+        x: 2342
+        y: 1953
+        width: 61
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f9bfb9e28f94c52a4e16511d186898
+      internalID: -2106299847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_52
+      rect:
+        serializedVersion: 2
+        x: 2447
+        y: 1950
+        width: 62
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fbc241c765db412abf2f9d9ff4c3c37
+      internalID: 927546118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_53
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1814
+        width: 73
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b2f3c8238da34967bd92393af217ac2
+      internalID: 731445280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_54
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1814
+        width: 73
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01bfa9b5ae6ba4475a75edc56b05d611
+      internalID: 1097839453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_55
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 1726
+        width: 174
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359ec02cada7b432f85c3842db03e5ef
+      internalID: 338146419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_56
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 1714
+        width: 166
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b78d3c19c6c4a31b2edd8709ef5e24
+      internalID: 1823808974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_57
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 1726
+        width: 165
+        height: 149
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29dd660686b5849efa4fcce79635cbc7
+      internalID: 1663054040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_58
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 1682
+        width: 160
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b2ebfecc1a1439f90f97b79b64137d
+      internalID: -1214833581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_59
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 1795
+        width: 120
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62155f55df9c643cbad647b96a6f20ad
+      internalID: -795329142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_60
+      rect:
+        serializedVersion: 2
+        x: 2554
+        y: 1836
+        width: 119
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb7b8aec2483545d1807c5671ac3dcb1
+      internalID: 203256368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_61
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1716
+        width: 74
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6bf55ceec06c4f81804377a26db9f7d
+      internalID: 1096854765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_62
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1716
+        width: 73
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2936335d717f1417cbfb0a0e4b0dda4b
+      internalID: 743859221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_63
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 1719
+        width: 73
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f60558722a9824cc9974109a98fb7a9d
+      internalID: 196883469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_64
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 1716
+        width: 73
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c78b7264b33242a89766363f4cba77b
+      internalID: -1236386726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_65
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 1675
+        width: 166
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ea960f4bce747d2a191e4ad2adcf58
+      internalID: -939890111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_66
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 1663
+        width: 174
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88dc43ad7f48441488f61e2607cb2d47
+      internalID: -1176326097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_67
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 1653
+        width: 174
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10451cb4ce7374ba49affc3a27eb0965
+      internalID: 1809771095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_68
+      rect:
+        serializedVersion: 2
+        x: 2248
+        y: 1697
+        width: 118
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5b2d4a6184c4ca88fd5452b6ec04c0
+      internalID: 1433961209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_69
+      rect:
+        serializedVersion: 2
+        x: 2570
+        y: 1689
+        width: 63
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465fd6a03c03b4bdd8b6e150266532a5
+      internalID: -1712703284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_70
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 1502
+        width: 165
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f26c67be5824879821337b8a6b431e
+      internalID: 1165699537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_71
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 1486
+        width: 94
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a7ea4ebea6f4850bd6be2ebbb6c946
+      internalID: -795040351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_72
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 1481
+        width: 94
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b21df3cd02546f7b8aca0cdcb072b7
+      internalID: 1640334797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_73
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 1487
+        width: 94
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ceac91ee3a64a26a5824a3d368f157
+      internalID: 1749709359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_74
+      rect:
+        serializedVersion: 2
+        x: 2375
+        y: 1568
+        width: 63
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5a2c02155e34f66a05a7132cc3b63f
+      internalID: -1615249304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_75
+      rect:
+        serializedVersion: 2
+        x: 2484
+        y: 1637
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9ec72790fae64d629c74b3e372e57e0
+      internalID: -384502891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_76
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1574
+        width: 73
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4d08cc3a8dd4906be9fd71fa1b04ba
+      internalID: 1964902874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_77
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 1577
+        width: 73
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87d356dff62f74c00a56d9bbd36ce0e1
+      internalID: -1159297902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_78
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1572
+        width: 73
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1832db7d81841429590c3ea1754c01
+      internalID: 490637689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_79
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 1565
+        width: 73
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa7a0142cf4eb4715a4f167636ee713f
+      internalID: -1751677212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_80
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 1566
+        width: 73
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f7e4a50fd294eba8028bc2bf148a2a
+      internalID: 1871701212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_81
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1558
+        width: 73
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83bd8f725abbe4601957c4162f803827
+      internalID: 684212570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_82
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 1565
+        width: 73
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1491fc75ddad84c0aa992f4520b639e6
+      internalID: -1096495056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_83
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 1563
+        width: 73
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6948d3a8698f04de99a106a240a13376
+      internalID: 629374393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_84
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 1574
+        width: 73
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52dd0f787f2804183bae2261dcf0db84
+      internalID: 1258946564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_85
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 1489
+        width: 105
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b3775dde60734856b97e7bf4d7781d0
+      internalID: 1539136117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_86
+      rect:
+        serializedVersion: 2
+        x: 2060
+        y: 1509
+        width: 104
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea5140b1b6554839978d07c19dcfc64
+      internalID: -1551390428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_87
+      rect:
+        serializedVersion: 2
+        x: 2213
+        y: 1512
+        width: 104
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3009d5dc4801242e295bd40a051d73ab
+      internalID: -1688695807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_88
+      rect:
+        serializedVersion: 2
+        x: 2582
+        y: 1517
+        width: 89
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5325f87e941d64368b8ee0acbfc384ea
+      internalID: -55026725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_89
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1478
+        width: 73
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf2353db72919495d9ceacb409df9787
+      internalID: 1215340401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_90
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 1480
+        width: 73
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c31736b21104ea092b276abf1861bd
+      internalID: 350606760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_91
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 1478
+        width: 74
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af021888fb51a4399b17c78e6c5eed7d
+      internalID: 2060206998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_92
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1486
+        width: 72
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b49ca25ffb6524884927bc525dd1fd78
+      internalID: 1485673089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_93
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1487
+        width: 73
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef65031f9f5a441da516736c9990eed
+      internalID: -50644697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_94
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 1498
+        width: 74
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384e3999a37814007bd6c81e24fdaadd
+      internalID: -81104204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_95
+      rect:
+        serializedVersion: 2
+        x: 2434
+        y: 1401
+        width: 91
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b04a427566c40c48787b933e5d8656
+      internalID: -1415643603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_96
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1382
+        width: 73
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3926f7fab5d464dae9bfdddbbf66fe
+      internalID: -692831130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_97
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1401
+        width: 73
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d4e660d894b4604982efae730f792e
+      internalID: -312588584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_98
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 1290
+        width: 107
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720d2b271730d4d24b60b82c2eada037
+      internalID: -768963236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_99
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 1316
+        width: 89
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec6f758647287405d9184ffbee71e701
+      internalID: -1874654283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_100
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 1320
+        width: 89
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42a10ec47cb042569e17303bf96e7a1
+      internalID: -526655058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_101
+      rect:
+        serializedVersion: 2
+        x: 2132
+        y: 1325
+        width: 92
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e40bddd0d7945fda5a1c83b57749f0
+      internalID: -1068211741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_102
+      rect:
+        serializedVersion: 2
+        x: 2289
+        y: 1353
+        width: 91
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f377622d315a4412c98233e6994b790e
+      internalID: -2058596331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_103
+      rect:
+        serializedVersion: 2
+        x: 2541
+        y: 1331
+        width: 107
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6af5e0f02f484f58a10546e8cbcbaad
+      internalID: -1119587503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_104
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 1320
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd112cc891d57484cb5a99b545fe3de1
+      internalID: 1196295677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_105
+      rect:
+        serializedVersion: 2
+        x: 2447
+        y: 1212
+        width: 107
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d60b89c77ccca4f438590867662b31d7
+      internalID: -1743253865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_106
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 1121
+        width: 152
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15c89b8f19eb45f593337bf3fc1fc8c
+      internalID: 1181397033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_107
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1117
+        width: 151
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7257080a53e3a40ef86ab8423980c2cc
+      internalID: -1882687434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_108
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 1118
+        width: 148
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50bab3fefe0b3461ea5472882f12dbee
+      internalID: -1150766742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_109
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 1114
+        width: 151
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764bf34f5f0414664b45f51b6b8c9076
+      internalID: 1526070764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_110
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 1114
+        width: 152
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489d956a7eb7d44f1b64bde895007390
+      internalID: 915905815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_111
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 1114
+        width: 152
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90430685e08ad4f64aef64d7fafed98d
+      internalID: 1689189360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_112
+      rect:
+        serializedVersion: 2
+        x: 1658
+        y: 1086
+        width: 90
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae2ddab3310e343ad9d116ddefbf2777
+      internalID: -1323966882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_113
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1105
+        width: 106
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d3bbc637b72b4240992a019c82261f0
+      internalID: -1380983074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_114
+      rect:
+        serializedVersion: 2
+        x: 1950
+        y: 1131
+        width: 90
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8155bd8918b427195ccf9835e471c5
+      internalID: 523336710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_115
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 1126
+        width: 106
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9716178772b3f4309a5d93323152c7e6
+      internalID: 1797735684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_116
+      rect:
+        serializedVersion: 2
+        x: 2276
+        y: 1161
+        width: 89
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd8b35e5df0d4b60a8bcf6c9ebeaf64
+      internalID: -1647652857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_117
+      rect:
+        serializedVersion: 2
+        x: 2454
+        y: 1038
+        width: 107
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf20dafeb65c4abc877c487dbea8548
+      internalID: 1367189714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_118
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 849
+        width: 152
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad69d0737e0fc4c27b4a1cb795bb41e8
+      internalID: -1497594665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_119
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 868
+        width: 148
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c067ba1589f8e41ab808f9d2bc4a42fc
+      internalID: -1993324040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_120
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 881
+        width: 152
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5587ef9f5f74097a14c67f8da8e9c2
+      internalID: -14177272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_121
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 938
+        width: 152
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614e236357ee442c9b06040b13343b6c
+      internalID: -87220881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_122
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 945
+        width: 152
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ace0a674ec0b40c8b2e8a83cf18d298
+      internalID: 485906208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_123
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 953
+        width: 148
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104364c82695c43deae6ac55a9da2981
+      internalID: 1522960819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_124
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 836
+        width: 91
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 169009f6347b647adb7534f5ef452723
+      internalID: 1654125713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_125
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 759
+        width: 148
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c8a46b8f0e424fc090824f2d3542ad6
+      internalID: 459199047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_126
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 759
+        width: 148
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afdad1b79237949ffa03fbeda69cab8a
+      internalID: 1647256154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_127
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 775
+        width: 148
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9245af34c204e42a7c0e7864e5854c
+      internalID: -200943713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_128
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 758
+        width: 91
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab17753bf26b346ad9187edd117a9ee4
+      internalID: 1912783685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_129
+      rect:
+        serializedVersion: 2
+        x: 1772
+        y: 844
+        width: 83
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82e0384f4ce14bc786f064d58269c22
+      internalID: -1663147248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_130
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 786
+        width: 91
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53cd4675afd2549019e2a5f8113aaf41
+      internalID: 1282394071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_131
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 672
+        width: 148
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0ee88efe8ae41638583b32f4363f53
+      internalID: 300545280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_132
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 654
+        width: 152
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4edb6acfc4e343b9beec2ecc124d986
+      internalID: 738023287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_133
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 685
+        width: 148
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a1ea0d21808e486293b27de09931ce7
+      internalID: -2003379058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_134
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 616
+        width: 148
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3e6cf7fd94e47398aa9be2b5e91f82
+      internalID: -1247288596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_135
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 613
+        width: 151
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e4392c222c64e4b930c6804f27373e
+      internalID: 1923957828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_136
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 584
+        width: 83
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b63036ebfc544940b2091b25661553b
+      internalID: 1362025302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_137
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 623
+        width: 82
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4dee4ede6d2c4379b62162d76792e1c
+      internalID: 1294475165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_138
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 654
+        width: 90
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee16581212f7c4280b59ac89acd09f4a
+      internalID: 737590773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_139
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 648
+        width: 89
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78fc878b06b442d98492fbc9e17168c
+      internalID: -484183122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_140
+      rect:
+        serializedVersion: 2
+        x: 1975
+        y: 641
+        width: 82
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e3dd28c3fe146a1bd5716c8c1dcdb5
+      internalID: 1270394002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_141
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 468
+        width: 148
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ca3caa8dda3c48d998077d977c08f6e
+      internalID: -989643871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_142
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 486
+        width: 148
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560d6aa40ef50445fb408a45bb02aaa0
+      internalID: -1788230799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_143
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 493
+        width: 148
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1692f777766a4d3e942fa6af6857755
+      internalID: -1561193176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_144
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 573
+        width: 83
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7dec706ad82b4e2db87a163d3c6a290
+      internalID: -425682356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_145
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 500
+        width: 56
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fba3dffc823048188b7d8a14785cb3c
+      internalID: 1434754368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_146
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 512
+        width: 55
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045388f23eb92435f8e7cfe9ec25c7d2
+      internalID: 280850022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_147
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 506
+        width: 77
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ee32257d6874ab286f02e7fc92c57a
+      internalID: 1074416007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_148
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 509
+        width: 79
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3090aa689bc0479993c78ea7f2f0eba
+      internalID: 42814664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_149
+      rect:
+        serializedVersion: 2
+        x: 2052
+        y: 449
+        width: 77
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9958b38d123d640f2b57a9a8dc0dfdec
+      internalID: -621486429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_150
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 433
+        width: 90
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c941e9e1e294bb4aa71dee89b70de7
+      internalID: 1943543117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_151
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 497
+        width: 56
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90177933669764d9fb926dfcc773e727
+      internalID: -1079078444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_152
+      rect:
+        serializedVersion: 2
+        x: 1786
+        y: 345
+        width: 96
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7daa141c9e6734b5186491e129d3f1fc
+      internalID: 1218440269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_153
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 297
+        width: 152
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c2852f2d4e68433898cb220b24cd241
+      internalID: 2035016339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_154
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 370
+        width: 95
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3408b70f72b4bc49660c8b1e1eb4e0
+      internalID: 1303540256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_155
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 361
+        width: 94
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfee3ef069171448fa8945995c2b011e
+      internalID: 2018887772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_156
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 364
+        width: 93
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5075b93663f514414b1ac7d73d7e91cc
+      internalID: -1601889568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_157
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 345
+        width: 96
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef51ac28497d947a3b3d3fd51d049277
+      internalID: 268320116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_158
+      rect:
+        serializedVersion: 2
+        x: 1927
+        y: 333
+        width: 95
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd9daea9f3e14fd090627eb253a2c15
+      internalID: -1553206642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_159
+      rect:
+        serializedVersion: 2
+        x: 2047
+        y: 278
+        width: 91
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28557b89656754134bfaa8457d4222dd
+      internalID: -1115113953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_160
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 261
+        width: 83
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ca5a6ab0cc74ffb9653cd82c5433bb
+      internalID: 1617599190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_161
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 160
+        width: 93
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd45d8ef7a9d247f88678cd147149515
+      internalID: -1810965054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_162
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 163
+        width: 86
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0737753aa154a4c158ccca2c81290be5
+      internalID: 366405219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_163
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 163
+        width: 90
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d609402ba41f4f4486c0f6d5b039921
+      internalID: 125504138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_164
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 162
+        width: 79
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac2f745e1bcb4591ae620995705c4c7
+      internalID: -223246941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_165
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 181
+        width: 77
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212315b4aef884ac29edce0a94b0449f
+      internalID: -1175018205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_166
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 171
+        width: 94
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2604a26e204db4549952a56055ae7cd8
+      internalID: -130616872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_167
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 135
+        width: 57
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5fd9e02a4fb6481da46230a8e8a523e
+      internalID: -1274097073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_168
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 153
+        width: 57
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7453152a161429a8ea00fae61c7d61
+      internalID: -117198822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_169
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 139
+        width: 92
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b436e04ae71d640329846c31e878a86e
+      internalID: -304051539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_170
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 56
+        width: 58
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2de2d57c4c3449caa2c143c980eca7
+      internalID: 459453648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_171
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 48
+        width: 57
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2b690de603d4746ae468317852d98f
+      internalID: 397579005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_172
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 39
+        width: 57
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7591a720b4f414506bbfb91bb0fd6861
+      internalID: 1931775125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_173
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 36
+        width: 57
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca708bce5aee4fcca97aa8e321c3684
+      internalID: 612192541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_174
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 43
+        width: 57
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7f21f8a22bc452c8130c09d55d03f4
+      internalID: 2015243547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_175
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 49
+        width: 57
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e6d310251684acc8c0aa8be486c6b1
+      internalID: -490192825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_176
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 42
+        width: 58
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab827359e2a5428fb9fe186445427d2
+      internalID: 366887307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_177
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 51
+        width: 58
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf8e1ad6f670439d8211f8467c5d061
+      internalID: -184361102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_178
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 58
+        width: 59
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef57d7a3a9eb84932a9ff4c04a3a90fc
+      internalID: -787940942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_179
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 58
+        width: 58
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a85fa8f95e542c1a5637893d0afb0d
+      internalID: -136465266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_180
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 45
+        width: 59
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac99b3b528014dabb2b0ed7904780dd
+      internalID: 2110486133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritePack_Master_Half_181
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 61
+        width: 58
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6decef1786f764729a0d9d9c6be844bf
+      internalID: 1931162781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 13c8d04bbb7614c8bb0a2d073857c1a2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SpritePack_Master_Half_111: 1689189360
+      SpritePack_Master_Half_82: -1096495056
+      SpritePack_Master_Half_153: 2035016339
+      SpritePack_Master_Half_45: -252597825
+      SpritePack_Master_Half_26: 713942653
+      SpritePack_Master_Half_105: -1743253865
+      SpritePack_Master_Half_72: 1640334797
+      SpritePack_Master_Half_135: 1923957828
+      SpritePack_Master_Half_97: -312588584
+      SpritePack_Master_Half_143: -1561193176
+      SpritePack_Master_Half_150: 1943543117
+      SpritePack_Master_Half_173: 612192541
+      SpritePack_Master_Half_22: -107281945
+      SpritePack_Master_Half_164: -223246941
+      SpritePack_Master_Half_110: 915905815
+      SpritePack_Master_Half_161: -1810965054
+      SpritePack_Master_Half_56: 1823808974
+      SpritePack_Master_Half_11: 1434990042
+      SpritePack_Master_Half_138: 737590773
+      SpritePack_Master_Half_25: -908078174
+      SpritePack_Master_Half_34: 199827962
+      SpritePack_Master_Half_129: -1663147248
+      SpritePack_Master_Half_160: 1617599190
+      SpritePack_Master_Half_155: 2018887772
+      SpritePack_Master_Half_47: 1487898012
+      SpritePack_Master_Half_103: -1119587503
+      SpritePack_Master_Half_54: 1097839453
+      SpritePack_Master_Half_90: 350606760
+      SpritePack_Master_Half_58: -1214833581
+      SpritePack_Master_Half_84: 1258946564
+      SpritePack_Master_Half_18: -247549361
+      SpritePack_Master_Half_178: -787940942
+      SpritePack_Master_Half_51: -2106299847
+      SpritePack_Master_Half_168: -117198822
+      SpritePack_Master_Half_59: -795329142
+      SpritePack_Master_Half_35: 292269136
+      SpritePack_Master_Half_38: 1515518995
+      SpritePack_Master_Half_140: 1270394002
+      SpritePack_Master_Half_154: 1303540256
+      SpritePack_Master_Half_39: -1225140792
+      SpritePack_Master_Half_118: -1497594665
+      SpritePack_Master_Half_19: 705481691
+      SpritePack_Master_Half_44: 1699867617
+      SpritePack_Master_Half_7: -793010182
+      SpritePack_Master_Half_81: 684212570
+      SpritePack_Master_Half_106: 1181397033
+      SpritePack_Master_Half_48: 983401172
+      SpritePack_Master_Half_99: -1874654283
+      SpritePack_Master_Half_92: 1485673089
+      SpritePack_Master_Half_139: -484183122
+      SpritePack_Master_Half_145: 1434754368
+      SpritePack_Master_Half_124: 1654125713
+      SpritePack_Master_Half_112: -1323966882
+      SpritePack_Master_Half_33: 480460842
+      SpritePack_Master_Half_166: -130616872
+      SpritePack_Master_Half_165: -1175018205
+      SpritePack_Master_Half_122: 485906208
+      SpritePack_Master_Half_6: 117107893
+      SpritePack_Master_Half_101: -1068211741
+      SpritePack_Master_Half_2: 528924582
+      SpritePack_Master_Half_115: 1797735684
+      SpritePack_Master_Half_46: 1860092570
+      SpritePack_Master_Half_15: 1369207272
+      SpritePack_Master_Half_73: 1749709359
+      SpritePack_Master_Half_20: -703784592
+      SpritePack_Master_Half_132: 738023287
+      SpritePack_Master_Half_151: -1079078444
+      SpritePack_Master_Half_9: 522678734
+      SpritePack_Master_Half_63: 196883469
+      SpritePack_Master_Half_42: -95583796
+      SpritePack_Master_Half_98: -768963236
+      SpritePack_Master_Half_27: 1036167496
+      SpritePack_Master_Half_107: -1882687434
+      SpritePack_Master_Half_125: 459199047
+      SpritePack_Master_Half_176: 366887307
+      SpritePack_Master_Half_76: 1964902874
+      SpritePack_Master_Half_50: -1649782860
+      SpritePack_Master_Half_79: -1751677212
+      SpritePack_Master_Half_120: -14177272
+      SpritePack_Master_Half_75: -384502891
+      SpritePack_Master_Half_17: -961707892
+      SpritePack_Master_Half_119: -1993324040
+      SpritePack_Master_Half_144: -425682356
+      SpritePack_Master_Half_117: 1367189714
+      SpritePack_Master_Half_5: -1595874198
+      SpritePack_Master_Half_104: 1196295677
+      SpritePack_Master_Half_13: -1301348913
+      SpritePack_Master_Half_113: -1380983074
+      SpritePack_Master_Half_141: -989643871
+      SpritePack_Master_Half_123: 1522960819
+      SpritePack_Master_Half_174: 2015243547
+      SpritePack_Master_Half_128: 1912783685
+      SpritePack_Master_Half_62: 743859221
+      SpritePack_Master_Half_109: 1526070764
+      SpritePack_Master_Half_127: -200943713
+      SpritePack_Master_Half_74: -1615249304
+      SpritePack_Master_Half_108: -1150766742
+      SpritePack_Master_Half_170: 459453648
+      SpritePack_Master_Half_14: 1843106102
+      SpritePack_Master_Half_116: -1647652857
+      SpritePack_Master_Half_94: -81104204
+      SpritePack_Master_Half_181: 1931162781
+      SpritePack_Master_Half_149: -621486429
+      SpritePack_Master_Half_171: 397579005
+      SpritePack_Master_Half_70: 1165699537
+      SpritePack_Master_Half_71: -795040351
+      SpritePack_Master_Half_146: 280850022
+      SpritePack_Master_Half_175: -490192825
+      SpritePack_Master_Half_8: 799578082
+      SpritePack_Master_Half_121: -87220881
+      SpritePack_Master_Half_41: -471639145
+      SpritePack_Master_Half_89: 1215340401
+      SpritePack_Master_Half_169: -304051539
+      SpritePack_Master_Half_159: -1115113953
+      SpritePack_Master_Half_131: 300545280
+      SpritePack_Master_Half_24: 607246820
+      SpritePack_Master_Half_96: -692831130
+      SpritePack_Master_Half_88: -55026725
+      SpritePack_Master_Half_77: -1159297902
+      SpritePack_Master_Half_158: -1553206642
+      SpritePack_Master_Half_167: -1274097073
+      SpritePack_Master_Half_91: 2060206998
+      SpritePack_Master_Half_133: -2003379058
+      SpritePack_Master_Half_43: -1374318534
+      SpritePack_Master_Half_31: 1005142972
+      SpritePack_Master_Half_60: 203256368
+      SpritePack_Master_Half_32: -629901034
+      SpritePack_Master_Half_152: 1218440269
+      SpritePack_Master_Half_78: 490637689
+      SpritePack_Master_Half_179: -136465266
+      SpritePack_Master_Half_57: 1663054040
+      SpritePack_Master_Half_147: 1074416007
+      SpritePack_Master_Half_52: 927546118
+      SpritePack_Master_Half_3: 1025917962
+      SpritePack_Master_Half_10: -1710866634
+      SpritePack_Master_Half_95: -1415643603
+      SpritePack_Master_Half_142: -1788230799
+      SpritePack_Master_Half_49: -1205227955
+      SpritePack_Master_Half_36: 580487726
+      SpritePack_Master_Half_180: 2110486133
+      SpritePack_Master_Half_67: 1809771095
+      SpritePack_Master_Half_126: 1647256154
+      SpritePack_Master_Half_30: -2035413808
+      SpritePack_Master_Half_136: 1362025302
+      SpritePack_Master_Half_61: 1096854765
+      SpritePack_Master_Half_66: -1176326097
+      SpritePack_Master_Half_37: -1623624904
+      SpritePack_Master_Half_86: -1551390428
+      SpritePack_Master_Half_28: 1738971693
+      SpritePack_Master_Half_83: 629374393
+      SpritePack_Master_Half_40: 2099821718
+      SpritePack_Master_Half_130: 1282394071
+      SpritePack_Master_Half_134: -1247288596
+      SpritePack_Master_Half_53: 731445280
+      SpritePack_Master_Half_16: -949999392
+      SpritePack_Master_Half_102: -2058596331
+      SpritePack_Master_Half_85: 1539136117
+      SpritePack_Master_Half_21: 1347696647
+      SpritePack_Master_Half_87: -1688695807
+      SpritePack_Master_Half_69: -1712703284
+      SpritePack_Master_Half_0: -1905254706
+      SpritePack_Master_Half_80: 1871701212
+      SpritePack_Master_Half_4: -1012527738
+      SpritePack_Master_Half_163: 125504138
+      SpritePack_Master_Half_177: -184361102
+      SpritePack_Master_Half_55: 338146419
+      SpritePack_Master_Half_172: 1931775125
+      SpritePack_Master_Half_162: 366405219
+      SpritePack_Master_Half_23: -1740640956
+      SpritePack_Master_Half_29: -1608634886
+      SpritePack_Master_Half_137: 1294475165
+      SpritePack_Master_Half_156: -1601889568
+      SpritePack_Master_Half_68: 1433961209
+      SpritePack_Master_Half_64: -1236386726
+      SpritePack_Master_Half_148: 42814664
+      SpritePack_Master_Half_157: 268320116
+      SpritePack_Master_Half_100: -526655058
+      SpritePack_Master_Half_65: -939890111
+      SpritePack_Master_Half_1: 1132053411
+      SpritePack_Master_Half_12: 1725862643
+      SpritePack_Master_Half_93: -50644697
+      SpritePack_Master_Half_114: 523336710
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
