@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Walked Square
   m_EditorClassIdentifier: 
   m_Sprite: {fileID: 7482667652216324306, guid: 0126f09999a774a96b6cf52d5b515bfd, type: 3}
-  m_Color: {r: 0.5943396, g: 0.5943396, b: 0.5943396, a: 1}
+  m_Color: {r: 0, g: 0.38679248, b: 0.1537527, a: 1}
   m_Transform:
     e00: 1
     e01: 0
