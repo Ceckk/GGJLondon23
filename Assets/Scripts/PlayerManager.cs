@@ -13,13 +13,18 @@ public class PlayerManager : MonoSingleton<PlayerManager>
     private float minValue = -6;
     private float maxValue = 4;
 
+    void Start()
+    {
+        TilemapManager.Instance.PlayerMoved(transform.position, transform.position);
+    }
+
     void Update()
     {
         if (!_tween.IsActive())
         {
             var movement = TilemapManager.Instance.GridSize;
             var oldPos = transform.position;
-            
+
             if (oldPos.y < maxValue && (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow)))
             {
                 _tween = transform.DOLocalMoveY(movement, _movementSpeed).SetRelative().SetEase(Ease.InOutSine).OnComplete(() => TilemapManager.Instance.PlayerMoved(oldPos, transform.position));
