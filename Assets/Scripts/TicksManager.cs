@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
 
-public class TicksManager : MonoBehaviour
+public class TicksManager : MonoSingleton<TicksManager>
 {
     [SerializeField] private float _timePerSimpleTick = 1;
     [SerializeField] private float _timePerSpecialTick = 2;
@@ -17,6 +17,9 @@ public class TicksManager : MonoBehaviour
     public class OnSpecialTick : IEvent { }
 
     private int _index = 0;
+
+    public float TimePerSpecialTick { get => _timePerSpecialTick; }
+    public float TimePerSimpleTick { get => _timePerSimpleTick; }
 
     void Start()
     {
@@ -71,6 +74,6 @@ public class TicksManager : MonoBehaviour
     private void HandleEnemyBehaviour()
     {
         EnemyManager.Instance.ResolveEnemyMovement();
-        EnemyManager.Instance.SpawnEnemies(2);
+        EnemyManager.Instance.SpawnEnemies();
     }
 }

@@ -8,8 +8,12 @@ public class EnemyManager : MonoSingleton<EnemyManager>
 
     private List<Enemy> _spawnedEnemyList = new List<Enemy>();
 
-    public void SpawnEnemies(int amount)
+    private int _spawnRound;
+
+    public void SpawnEnemies()
     {
+        _spawnRound++;
+
         var spawnPositions = new List<Vector3>();
 
         for (float x = TilemapManager.MIN_VALUE; x <= TilemapManager.MAX_VALUE; x += TilemapManager.Instance.CellSize)
@@ -24,9 +28,17 @@ public class EnemyManager : MonoSingleton<EnemyManager>
             spawnPositions.Add(new Vector3(TilemapManager.MAX_VALUE, y));
         }
 
-        for (int i = 0; i < amount; i++)
+        for (int i = 0; i < 2; i++)
         {
-            var enemy = Instantiate(_enemyPrefabs[UnityEngine.Random.Range(0, _enemyPrefabs.Length)], transform);
+            Enemy enemy = null;
+            if (_spawnRound % 2 == 0)
+            {
+                enemy = Instantiate(_enemyPrefabs[UnityEngine.Random.Range(1, _enemyPrefabs.Length)], transform);
+            }
+            else
+            {
+                enemy = Instantiate(_enemyPrefabs[0], transform);
+            }
             var spawnPos = spawnPositions[UnityEngine.Random.Range(0, spawnPositions.Count)];
             spawnPositions.Remove(spawnPos);
             enemy.transform.position = spawnPos;
