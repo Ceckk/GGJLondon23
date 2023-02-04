@@ -9,10 +9,15 @@ public class EnemyManager : MonoSingleton<EnemyManager>
     private List<Enemy> _spawnedEnemyList = new List<Enemy>();
 
     private int _spawnRound;
+    private int _killCount;
+
+    public int SpawnRound { get => _spawnRound; }
+    public int KillCount { get => _killCount; }
 
     public void SpawnEnemies()
     {
         _spawnRound++;
+        GameManager.Instance.UpdateHighScore();
 
         var spawnPositions = new List<Vector3>();
 
@@ -158,6 +163,8 @@ public class EnemyManager : MonoSingleton<EnemyManager>
         if (enemy.Hp <= 0)
         {
             enemy.Die();
+            _killCount++;
+            GameManager.Instance.UpdateHighScore();
         }
     }
 
