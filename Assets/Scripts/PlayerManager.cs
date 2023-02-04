@@ -1,28 +1,33 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using DG.Tweening;
-using DG.Tweening.Core;
-using DG.Tweening.Plugins.Options;
 using UnityEngine;
 
 public class PlayerManager : MonoSingleton<PlayerManager>
 {
     [SerializeField] private float _movementAnimationSpeed = 0.25f;
 
-    private TweenerCore<Vector3, Vector3, VectorOptions> _tween;
+    private Tweener _tween;
 
     void Start()
     {
         EventAggregator.Instance.AddListener<TicksManager.OnSimpleTick>(OnTick);
-        EventAggregator.Instance.AddListener<TicksManager.OnSpecialTick>(OnTick);
+        EventAggregator.Instance.AddListener<TicksManager.OnSpecialTick>(OnSpecialTick);
         TilemapManager.Instance.PlayerMoved(transform.position, transform.position);
     }
 
     void OnDestroy()
     {
         EventAggregator.Instance.RemoveListener<TicksManager.OnSimpleTick>(OnTick);
-        EventAggregator.Instance.RemoveListener<TicksManager.OnSpecialTick>(OnTick);
+        EventAggregator.Instance.RemoveListener<TicksManager.OnSpecialTick>(OnSpecialTick);
+    }
+
+    private void OnSpecialTick(IEvent obj)
+    {
+        if (_tween.IsActive())
+        {
+            _tween.Complete();
+        }
+        
+        _tween = transform.DOPunchScale(new Vector3(0, -1f, 0), 1f);
     }
 
     private void OnTick(IEvent obj)
