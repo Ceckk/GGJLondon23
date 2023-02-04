@@ -22,7 +22,7 @@ public class PlayerManager : MonoSingleton<PlayerManager>
     {
         if (!_tween.IsActive())
         {
-            var movement = TilemapManager.Instance.GridSize;
+            var movement = TilemapManager.Instance.CellSize;
             var oldPos = transform.position;
 
             if (oldPos.y < maxValue && (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow)))
