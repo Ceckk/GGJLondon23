@@ -837,8 +837,8 @@ MonoBehaviour:
   _timePerSimpleTick: 1
   _timePerSpecialTick: 1
   _numberOfTicksBeforeSpecialTick: 3
-  _simpleTickSound: {fileID: 8300000, guid: ffb159a21c8a04135a5616979c828fab, type: 3}
-  _specialTckSound: {fileID: 8300000, guid: 79e6baad2fd414b82a6d49ce1568d2e5, type: 3}
+  _simpleTickSound: {fileID: 8300000, guid: 89a59ea23b3a948fbb0a45b3070626d5, type: 3}
+  _specialTckSound: {fileID: 8300000, guid: 9c562dafb7dca40eba9d3cc6c6e1053b, type: 3}
   _audioSource: {fileID: 1869506293}
 --- !u!4 &1869506292
 Transform:
@@ -865,7 +865,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 05e23e220074d43e1be4ccd4dd399df0, type: 3}
+  m_audioClip: {fileID: 8300000, guid: ba1e96977829a4dbba991985288069b2, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1

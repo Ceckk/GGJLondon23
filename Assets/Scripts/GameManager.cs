@@ -18,6 +18,6 @@ public class GameManager : MonoSingleton<GameManager>
 
     public void Restart()
     {
-        SceneManager.LoadScene(0);
+        // SceneManager.LoadScene(0);
     }
 }

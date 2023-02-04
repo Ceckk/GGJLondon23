@@ -10,6 +10,7 @@ public class EnemyManager : MonoSingleton<EnemyManager>
 
     private int _spawnRound;
     private int _killCount;
+    private List<Vector3> _reservedPositions = new List<Vector3>();
 
     public int SpawnRound { get => _spawnRound; }
     public int KillCount { get => _killCount; }
@@ -21,24 +22,18 @@ public class EnemyManager : MonoSingleton<EnemyManager>
 
         var spawnPositions = new List<Vector3>();
 
-        var reservedPos = new List<Vector3>();
-        foreach (var enemy in _spawnedEnemyList)
-        {
-            reservedPos.Add(enemy.transform.position);
-        }
-
-        reservedPos.Add(PlayerManager.Instance.transform.position);
+        _reservedPositions.Add(PlayerManager.Instance.transform.position);
 
         for (float x = TilemapManager.MIN_VALUE; x <= TilemapManager.MAX_VALUE; x += TilemapManager.Instance.CellSize)
         {
             var pos = new Vector3(x, TilemapManager.MIN_VALUE);
-            if (!reservedPos.Contains(pos))
+            if (!_reservedPositions.Contains(pos))
             {
                 spawnPositions.Add(pos);
             }
 
             pos = new Vector3(x, TilemapManager.MAX_VALUE);
-            if (!reservedPos.Contains(pos))
+            if (!_reservedPositions.Contains(pos))
             {
                 spawnPositions.Add(pos);
             }
@@ -47,13 +42,13 @@ public class EnemyManager : MonoSingleton<EnemyManager>
         for (float y = TilemapManager.MIN_VALUE + TilemapManager.Instance.CellSize; y <= TilemapManager.MAX_VALUE - TilemapManager.Instance.CellSize; y += TilemapManager.Instance.CellSize)
         {
             var pos = new Vector3(TilemapManager.MIN_VALUE, y);
-            if (!reservedPos.Contains(pos))
+            if (!_reservedPositions.Contains(pos))
             {
                 spawnPositions.Add(pos);
             }
 
             pos = new Vector3(TilemapManager.MAX_VALUE, y);
-            if (!reservedPos.Contains(pos))
+            if (!_reservedPositions.Contains(pos))
             {
                 spawnPositions.Add(pos);
             }
@@ -170,16 +165,16 @@ public class EnemyManager : MonoSingleton<EnemyManager>
 
     public void ResolveEnemyMovement()
     {
-        var reservedPositions = new List<Vector3>();
+        _reservedPositions = new List<Vector3>();
 
         foreach (var enemy in _spawnedEnemyList)
         {
-            reservedPositions.Add(enemy.transform.position);
+            _reservedPositions.Add(enemy.transform.position);
         }
 
         foreach (var enemy in _spawnedEnemyList)
         {
-            enemy.Move(ref reservedPositions);
+            enemy.Move(ref _reservedPositions);
         }
     }
 }
