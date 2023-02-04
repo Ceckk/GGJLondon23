@@ -1246,7 +1246,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _enemyPrefabs:
   - {fileID: 1039192733605262723, guid: 2d02649e1d5344cb0be5e59482e0998c, type: 3}
-  - {fileID: 7809428232874775521, guid: 42b1e6881cb484ed9ad0428bd0f9bc18, type: 3}
+  - {fileID: 5204604593695419292, guid: 42b1e6881cb484ed9ad0428bd0f9bc18, type: 3}
   - {fileID: 1916426492635019115, guid: 4f12181b8665e41f289f88ed51b53c69, type: 3}
 --- !u!4 &2003431595
 Transform:

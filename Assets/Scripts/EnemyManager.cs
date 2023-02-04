@@ -77,18 +77,35 @@ public class EnemyManager : MonoSingleton<EnemyManager>
         _spawnedEnemyList.RemoveAll(e => e.IsDead);
     }
 
-    public void CheckPlayerHit()
+    public bool CheckPlayerHit()
     {
         var playerCellPos = TilemapManager.Instance.GetCellPosition(PlayerManager.Instance.transform.position);
-        foreach(var enemy in _spawnedEnemyList)
+        foreach (var enemy in _spawnedEnemyList)
         {
             var enemyCellPos = TilemapManager.Instance.GetCellPosition(enemy.transform.position);
 
             if (enemyCellPos == playerCellPos)
             {
                 GameManager.Instance.Restart();
+                return true;
             }
         }
+
+        return false;
+    }
+
+    public bool CheckPlayerHit(Enemy enemy)
+    {
+        var playerCellPos = TilemapManager.Instance.GetCellPosition(PlayerManager.Instance.transform.position);
+        var enemyCellPos = TilemapManager.Instance.GetCellPosition(enemy.transform.position);
+
+        if (enemyCellPos == playerCellPos)
+        {
+            GameManager.Instance.Restart();
+            return true;
+        }
+
+        return false;
     }
 
     private void Hit(Enemy enemy)

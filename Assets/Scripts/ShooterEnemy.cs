@@ -1,7 +1,20 @@
+using System;
+using UnityEngine;
+
 public class ShooterEnemy : Enemy
 {
-    public override void Move()
+    [SerializeField] private Projectile _projectilePrefab;
+
+    protected override void OnComplete()
     {
-        base.Move();
+        if (!EnemyManager.Instance.CheckPlayerHit(this))
+        {
+            Shoot(PlayerManager.Instance.transform.position);
+        }
+    }
+
+    private void Shoot(Vector3 position)
+    {
+        Instantiate(_projectilePrefab, transform.position, Quaternion.LookRotation(position - transform.position));
     }
 }

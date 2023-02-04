@@ -24,7 +24,6 @@ public class TileDetection : MonoBehaviour
             {
                 _tilemap.SetTile(tpos, _tile);
                 Debug.Log(tile.name);
-                
             }
             else
             {

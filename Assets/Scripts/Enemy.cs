@@ -11,7 +11,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] private int _hp = 1;
     [SerializeField] private bool _isDead = false;
     [SerializeField] private float _movementAnimationSpeed = 0.25f;
-    
+
     private TweenerCore<Vector3, Vector3, VectorOptions> _tween;
 
     public int Hp { get => _hp; set => _hp = value; }
@@ -41,8 +41,13 @@ public class Enemy : MonoBehaviour
                 _tween = transform.DOLocalMoveX(playerPos.x > transform.position.x ? movement : -movement, _movementAnimationSpeed);
             }
 
-            _tween.SetRelative().SetEase(Ease.InOutSine).OnComplete(EnemyManager.Instance.CheckPlayerHit);
+            _tween.SetRelative().SetEase(Ease.InOutSine).OnComplete(OnComplete);
         }
+    }
+
+    protected virtual void OnComplete()
+    {
+        EnemyManager.Instance.CheckPlayerHit(this);
     }
 
     public void Die()
