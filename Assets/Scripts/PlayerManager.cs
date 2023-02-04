@@ -11,9 +11,6 @@ public class PlayerManager : MonoSingleton<PlayerManager>
 
     private TweenerCore<Vector3, Vector3, VectorOptions> _tween;
 
-    private float minValue = -6;
-    private float maxValue = 4;
-
     void Start()
     {
         TilemapManager.Instance.PlayerMoved(transform.position, transform.position);
@@ -26,19 +23,19 @@ public class PlayerManager : MonoSingleton<PlayerManager>
             var movement = TilemapManager.Instance.CellSize;
             var oldPos = transform.position;
 
-            if (oldPos.y < maxValue && (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow)))
+            if (oldPos.y < TilemapManager.MAX_VALUE && (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow)))
             {
                 _tween = transform.DOLocalMoveY(movement, _movementAnimationSpeed);
             }
-            else if (oldPos.x > minValue && (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow)))
+            else if (oldPos.x > TilemapManager.MIN_VALUE && (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow)))
             {
                 _tween = transform.DOLocalMoveX(-movement, _movementAnimationSpeed);
             }
-            else if (oldPos.y > minValue && (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow)))
+            else if (oldPos.y > TilemapManager.MIN_VALUE && (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow)))
             {
                 _tween = transform.DOLocalMoveY(-movement, _movementAnimationSpeed);
             }
-            else if (oldPos.x < maxValue && (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow)))
+            else if (oldPos.x < TilemapManager.MAX_VALUE && (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow)))
             {
                 _tween = transform.DOLocalMoveX(movement, _movementAnimationSpeed);
             }

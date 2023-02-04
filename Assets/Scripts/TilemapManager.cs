@@ -9,6 +9,9 @@ public class TilemapManager : MonoSingleton<TilemapManager>
     private const int COOLDOWN_MAX = 36;
     private const int COOLDOWN_YELLOW = 24;
 
+    public const float MIN_VALUE = -6;
+    public const float MAX_VALUE = 4;
+
     [SerializeField] private Tilemap _tilemap;
     [SerializeField] private TileBase[] _tiles;
     [SerializeField] private TileBase[] _coolDownTiles;

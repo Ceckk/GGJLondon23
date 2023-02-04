@@ -10,9 +10,20 @@ public class EnemyManager : MonoSingleton<EnemyManager>
 
     public void SpawnEnemies(int amount)
     {
+        var spawnPositions = new List<Vector3>
+        {
+            new Vector3(TilemapManager.MAX_VALUE, TilemapManager.MAX_VALUE),
+            new Vector3(TilemapManager.MIN_VALUE, TilemapManager.MIN_VALUE),
+            new Vector3(TilemapManager.MIN_VALUE, TilemapManager.MAX_VALUE),
+            new Vector3(TilemapManager.MAX_VALUE, TilemapManager.MIN_VALUE),
+        };
+
         for (int i = 0; i < amount; i++)
         {
             var enemy = Instantiate(_enemyPrefabs[UnityEngine.Random.Range(0, _enemyPrefabs.Length)], transform);
+            var spawnPos = spawnPositions[UnityEngine.Random.Range(0, spawnPositions.Count)];
+            spawnPositions.Remove(spawnPos);
+            enemy.transform.position = spawnPos;
             _spawnedEnemyList.Add(enemy);
         }
     }
