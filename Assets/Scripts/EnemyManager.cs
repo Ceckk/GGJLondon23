@@ -10,13 +10,19 @@ public class EnemyManager : MonoSingleton<EnemyManager>
 
     public void SpawnEnemies(int amount)
     {
-        var spawnPositions = new List<Vector3>
+        var spawnPositions = new List<Vector3>();
+
+        for (float x = TilemapManager.MIN_VALUE; x <= TilemapManager.MAX_VALUE; x += TilemapManager.Instance.CellSize)
         {
-            new Vector3(TilemapManager.MAX_VALUE, TilemapManager.MAX_VALUE),
-            new Vector3(TilemapManager.MIN_VALUE, TilemapManager.MIN_VALUE),
-            new Vector3(TilemapManager.MIN_VALUE, TilemapManager.MAX_VALUE),
-            new Vector3(TilemapManager.MAX_VALUE, TilemapManager.MIN_VALUE),
-        };
+            spawnPositions.Add(new Vector3(x, TilemapManager.MIN_VALUE));
+            spawnPositions.Add(new Vector3(x, TilemapManager.MAX_VALUE));
+        }
+
+        for (float y = TilemapManager.MIN_VALUE + TilemapManager.Instance.CellSize; y <= TilemapManager.MAX_VALUE - TilemapManager.Instance.CellSize; y += TilemapManager.Instance.CellSize)
+        {
+            spawnPositions.Add(new Vector3(TilemapManager.MIN_VALUE, y));
+            spawnPositions.Add(new Vector3(TilemapManager.MAX_VALUE, y));
+        }
 
         for (int i = 0; i < amount; i++)
         {

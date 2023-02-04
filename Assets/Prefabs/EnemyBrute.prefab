@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c8ef67784efa4df0827a00e4f0ba9ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _hp: 3
+  _hp: 2
   _isDead: 0
   _movementAnimationSpeed: 0.25
 --- !u!1 &8546863588991059142
