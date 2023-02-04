@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
@@ -13,7 +14,20 @@ public class PlayerManager : MonoSingleton<PlayerManager>
 
     void Start()
     {
+        EventAggregator.Instance.AddListener<TicksManager.OnSimpleTick>(OnTick);
+        EventAggregator.Instance.AddListener<TicksManager.OnSpecialTick>(OnTick);
         TilemapManager.Instance.PlayerMoved(transform.position, transform.position);
+    }
+
+    void OnDestroy()
+    {
+        EventAggregator.Instance.RemoveListener<TicksManager.OnSimpleTick>(OnTick);
+        EventAggregator.Instance.RemoveListener<TicksManager.OnSpecialTick>(OnTick);
+    }
+
+    private void OnTick(IEvent obj)
+    {
+        transform.DOPunchScale(new Vector3(0, -0.5f, 0), 0.25f);
     }
 
     void Update()
