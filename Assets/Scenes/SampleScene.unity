@@ -541,9 +541,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _tilemap: {fileID: 1877838063}
   _tiles:
-  - {fileID: 11400000, guid: 4998ba220bb7a43278e45854003fb3af, type: 2}
-  - {fileID: 11400000, guid: 4998ba220bb7a43278e45854003fb3af, type: 2}
-  - {fileID: 11400000, guid: 4998ba220bb7a43278e45854003fb3af, type: 2}
   - {fileID: 11400000, guid: 6537129aef2274234aa8fd2c322a7c70, type: 2}
   - {fileID: 11400000, guid: 26518904b466d4c0ea58cba7da322e9e, type: 2}
   - {fileID: 11400000, guid: 47073c84f91964189aebbd058726ecb1, type: 2}

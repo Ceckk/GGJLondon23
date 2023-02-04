@@ -31,13 +31,13 @@ public class AttackManager : MonoBehaviour
             switch (tile.name)
             {
                 case "Horizontal":
-                    TilemapManager.Instance.HorizontalAttack(pos);
+                    TilemapManager.Instance.Attack(pos);
                     break;
                 case "Vertical":
-                    TilemapManager.Instance.VerticalAttack(pos);
+                    TilemapManager.Instance.Attack(pos);
                     break;
                 case "Around":
-                    TilemapManager.Instance.AroundAttack(pos);
+                    TilemapManager.Instance.Attack(pos);
                     break;
             }
         }
