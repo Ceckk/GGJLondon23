@@ -40,7 +40,7 @@ public class PlayerManager : MonoSingleton<PlayerManager>
                 _tween = transform.DOLocalMoveX(movement, _movementAnimationSpeed);
             }
 
-            _tween.SetRelative().SetEase(Ease.InOutSine);//.OnComplete(() => TilemapManager.Instance.PlayerMoved(oldPos, transform.position));
+            _tween.SetRelative().SetEase(Ease.InOutSine).OnComplete(EnemyManager.Instance.CheckPlayerHit);
         }
     }
 }

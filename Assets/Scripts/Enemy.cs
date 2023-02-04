@@ -41,7 +41,7 @@ public class Enemy : MonoBehaviour
                 _tween = transform.DOLocalMoveX(playerPos.x > transform.position.x ? movement : -movement, _movementAnimationSpeed);
             }
 
-            _tween.SetRelative().SetEase(Ease.InOutSine);
+            _tween.SetRelative().SetEase(Ease.InOutSine).OnComplete(EnemyManager.Instance.CheckPlayerHit);
         }
     }
 
