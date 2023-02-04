@@ -16,16 +16,42 @@ public class EnemyManager : MonoSingleton<EnemyManager>
 
         var spawnPositions = new List<Vector3>();
 
+        var reservedPos = new List<Vector3>();
+        foreach (var enemy in _spawnedEnemyList)
+        {
+            reservedPos.Add(enemy.transform.position);
+        }
+
+        reservedPos.Add(PlayerManager.Instance.transform.position);
+
         for (float x = TilemapManager.MIN_VALUE; x <= TilemapManager.MAX_VALUE; x += TilemapManager.Instance.CellSize)
         {
-            spawnPositions.Add(new Vector3(x, TilemapManager.MIN_VALUE));
-            spawnPositions.Add(new Vector3(x, TilemapManager.MAX_VALUE));
+            var pos = new Vector3(x, TilemapManager.MIN_VALUE);
+            if (!reservedPos.Contains(pos))
+            {
+                spawnPositions.Add(pos);
+            }
+
+            pos = new Vector3(x, TilemapManager.MAX_VALUE);
+            if (!reservedPos.Contains(pos))
+            {
+                spawnPositions.Add(pos);
+            }
         }
 
         for (float y = TilemapManager.MIN_VALUE + TilemapManager.Instance.CellSize; y <= TilemapManager.MAX_VALUE - TilemapManager.Instance.CellSize; y += TilemapManager.Instance.CellSize)
         {
-            spawnPositions.Add(new Vector3(TilemapManager.MIN_VALUE, y));
-            spawnPositions.Add(new Vector3(TilemapManager.MAX_VALUE, y));
+            var pos = new Vector3(TilemapManager.MIN_VALUE, y);
+            if (!reservedPos.Contains(pos))
+            {
+                spawnPositions.Add(pos);
+            }
+
+            pos = new Vector3(TilemapManager.MAX_VALUE, y);
+            if (!reservedPos.Contains(pos))
+            {
+                spawnPositions.Add(pos);
+            }
         }
 
         for (int i = 0; i < 2; i++)

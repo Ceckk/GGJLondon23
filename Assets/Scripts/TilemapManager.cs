@@ -85,6 +85,8 @@ public class TilemapManager : MonoSingleton<TilemapManager>
                 }
             }
         }
+
+        _tilemap.RefreshAllTiles();
     }
 
     public void PlayerMoved(Vector3 oldPos, Vector3 newPos)
