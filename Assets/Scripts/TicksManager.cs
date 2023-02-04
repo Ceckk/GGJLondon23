@@ -57,17 +57,10 @@ public class TicksManager : MonoSingleton<TicksManager>
         var pos = PlayerManager.Instance.transform.position;
         var tile = TilemapManager.Instance.GetTile(pos);
 
-        if (tile != null)
+        if (tile != null && !tile.name.StartsWith("Dirt"))
         {
-            switch (tile.name)
-            {
-                case "Horizontal":
-                case "Vertical":
-                case "Around":
-                    TilemapManager.Instance.Attack(pos);
-                    EnemyManager.Instance.ResolvePlayerAttack(pos, tile.name);
-                    break;
-            }
+            TilemapManager.Instance.Attack(pos);
+            EnemyManager.Instance.ResolvePlayerAttack(pos, tile.name);
         }
     }
 

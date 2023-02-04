@@ -56,7 +56,7 @@ public class EnemyManager : MonoSingleton<EnemyManager>
 
             switch (attackType)
             {
-                case "Horizontal":
+                case "Hay":
                     for (float x = bounds.min.x; x < bounds.max.x; x += cellSize)
                     {
                         var tpos = TilemapManager.Instance.GetCellPosition(new Vector3(x, pos.y));
@@ -66,7 +66,7 @@ public class EnemyManager : MonoSingleton<EnemyManager>
                         }
                     }
                     break;
-                case "Vertical":
+                case "Flowers":
                     for (float y = bounds.min.y; y < bounds.max.y; y += cellSize)
                     {
                         var tpos = TilemapManager.Instance.GetCellPosition(new Vector3(pos.x, y));
@@ -76,7 +76,7 @@ public class EnemyManager : MonoSingleton<EnemyManager>
                         }
                     }
                     break;
-                case "Around":
+                case "Water":
                     for (float x = -cellSize; x <= cellSize; x += cellSize)
                     {
                         for (float y = -cellSize; y <= cellSize; y += cellSize)
@@ -137,9 +137,16 @@ public class EnemyManager : MonoSingleton<EnemyManager>
 
     public void ResolveEnemyMovement()
     {
+        var reservedPositions = new List<Vector3>();
+
         foreach (var enemy in _spawnedEnemyList)
         {
-            enemy.Move();
+            reservedPositions.Add(enemy.transform.position);
+        }
+
+        foreach (var enemy in _spawnedEnemyList)
+        {
+            enemy.Move(ref reservedPositions);
         }
     }
 }

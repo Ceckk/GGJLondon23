@@ -22,7 +22,7 @@ public class Enemy : MonoBehaviour
         // TODO spawn animation
     }
 
-    public virtual void Move()
+    public virtual void Move(ref List<Vector3> reservedPos)
     {
         if (!_tween.IsActive())
         {
@@ -34,14 +34,50 @@ public class Enemy : MonoBehaviour
 
             if (differenceX < differenceY)
             {
-                _tween = transform.DOLocalMoveY(playerPos.y > transform.position.y ? movement : -movement, _movementAnimationSpeed);
+                if (playerPos.y > transform.position.y)
+                {
+                    var targetPos = transform.position + Vector3.up * movement;
+                    if (!reservedPos.Contains(targetPos))
+                    {
+                        _tween = transform.DOLocalMoveY(movement, _movementAnimationSpeed).SetRelative().SetEase(Ease.InOutSine).OnComplete(OnComplete);
+                        reservedPos.Add(targetPos);
+                        return;
+                    }
+                }
+                else
+                {
+                    var targetPos = transform.position + Vector3.down * movement;
+                    if (!reservedPos.Contains(targetPos))
+                    {
+                        _tween = transform.DOLocalMoveY(-movement, _movementAnimationSpeed).SetRelative().SetEase(Ease.InOutSine).OnComplete(OnComplete);
+                        reservedPos.Add(targetPos);
+                        return;
+                    }
+                }
             }
             else
             {
-                _tween = transform.DOLocalMoveX(playerPos.x > transform.position.x ? movement : -movement, _movementAnimationSpeed);
+                if (playerPos.x > transform.position.x)
+                {
+                    var targetPos = transform.position + Vector3.right * movement;
+                    if (!reservedPos.Contains(targetPos))
+                    {
+                        _tween = transform.DOLocalMoveX(movement, _movementAnimationSpeed).SetRelative().SetEase(Ease.InOutSine).OnComplete(OnComplete);
+                        reservedPos.Add(targetPos);
+                        return;
+                    }
+                }
+                else
+                {
+                    var targetPos = transform.position + Vector3.left * movement;
+                    if (!reservedPos.Contains(targetPos))
+                    {
+                        _tween = transform.DOLocalMoveX(-movement, _movementAnimationSpeed).SetRelative().SetEase(Ease.InOutSine).OnComplete(OnComplete);
+                        reservedPos.Add(targetPos);
+                        return;
+                    }
+                }
             }
-
-            _tween.SetRelative().SetEase(Ease.InOutSine).OnComplete(OnComplete);
         }
     }
 
