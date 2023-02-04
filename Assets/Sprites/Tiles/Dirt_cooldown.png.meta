@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d2580f902020f4248a54ee547db1132c
+guid: 334000a333fbf48a28a250783bdeb671
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -67,7 +67,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -141,7 +141,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dirt_cooldown_0
+      name: Dirt_cooldown_0
       rect:
         serializedVersion: 2
         x: 0
@@ -155,14 +155,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85c3bcf65171040cb93e9003c258904f
-      internalID: -1957921722
+      spriteID: ff54c5a0a68b744e2a1cbc7a7bf52d8a
+      internalID: 1082913036
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirt_cooldown_1
+      name: Dirt_cooldown_1
       rect:
         serializedVersion: 2
         x: 128
@@ -176,14 +176,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78ae09d8a13ca4a64bf1a7fc7e2ab03c
-      internalID: -412784574
+      spriteID: c93e33ad9dd9543c49b64a3e927d21a5
+      internalID: 1486119112
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirt_cooldown_2
+      name: Dirt_cooldown_2
       rect:
         serializedVersion: 2
         x: 256
@@ -197,14 +197,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b128a7a7771046ad93b4bd12babf45a
-      internalID: -464084501
+      spriteID: 3466a4d5cfb29482ab3988989f155b3d
+      internalID: -82634408
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirt_cooldown_3
+      name: Dirt_cooldown_3
       rect:
         serializedVersion: 2
         x: 384
@@ -218,35 +218,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17c928caef35442eba822a38d4d366cd
-      internalID: 1836818193
+      spriteID: 22dcb1ee7cf4d48a899c86715dc3cdf0
+      internalID: 2074878488
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirt_cooldown_4
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 384
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 18b5fc59b3be745edafbfa99007c374c
-      internalID: -1755977097
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dirt_cooldown_5
+      name: Dirt_cooldown_4
       rect:
         serializedVersion: 2
         x: 0
@@ -260,14 +239,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b8b1c78a0e0849a8bbdbd920f2edb4d
-      internalID: -1803512974
+      spriteID: 8a30c6c4c5bcb474eaad654061254275
+      internalID: 629783668
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirt_cooldown_6
+      name: Dirt_cooldown_5
       rect:
         serializedVersion: 2
         x: 128
@@ -281,14 +260,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab00c9ac1ef8a46c8875ea3545d7431b
-      internalID: -590848857
+      spriteID: 080086ac1912d4e57a3d0185dc4b452e
+      internalID: 1783162239
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirt_cooldown_7
+      name: Dirt_cooldown_6
       rect:
         serializedVersion: 2
         x: 256
@@ -302,14 +281,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f050f33a71bf46a895e7efff8dfe4b6
-      internalID: 683599923
+      spriteID: 847ee10b38d294846aeb3e3ad8234695
+      internalID: 2092394104
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirt_cooldown_8
+      name: Dirt_cooldown_7
       rect:
         serializedVersion: 2
         x: 384
@@ -323,35 +302,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5ce79e0cbd604607a6b42594d744367
-      internalID: -1199026327
+      spriteID: 4e2898ae3dff940debf8da2d5be3db8c
+      internalID: -286853548
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirt_cooldown_9
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 256
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6ee5962f6f90a45179e6e24efb7d987a
-      internalID: -959920100
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dirt_cooldown_10
+      name: Dirt_cooldown_8
       rect:
         serializedVersion: 2
         x: 0
@@ -365,14 +323,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8efbffad9ca24078acd6d97121f8db4
-      internalID: 614470589
+      spriteID: fa75de83cdc6d4d28a811bf83a221073
+      internalID: -917433092
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirt_cooldown_11
+      name: Dirt_cooldown_9
       rect:
         serializedVersion: 2
         x: 128
@@ -386,14 +344,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf9b4363e570947f0b07aecee96a921f
-      internalID: 1148063372
+      spriteID: 19049dc5e491040bb8726f8f87d914dd
+      internalID: -484082124
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirt_cooldown_12
+      name: Dirt_cooldown_10
       rect:
         serializedVersion: 2
         x: 256
@@ -407,14 +365,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28f1f70a273aa421387e133aaeadb2bd
-      internalID: -353609819
+      spriteID: c56f308fcc99446508a84dba03c80058
+      internalID: 1338637264
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirt_cooldown_13
+      name: Dirt_cooldown_11
       rect:
         serializedVersion: 2
         x: 384
@@ -428,35 +386,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3620015e9700444d29f9927c89549f61
-      internalID: 686728060
+      spriteID: 3fb12cbcfa8d34155b7d1fc13b954a71
+      internalID: -2128218118
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirt_cooldown_14
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 128
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f7bc797caa79341b592c2283f39f9428
-      internalID: 1972097647
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dirt_cooldown_15
+      name: Dirt_cooldown_12
       rect:
         serializedVersion: 2
         x: 0
@@ -470,14 +407,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db36398c5013a435baeb462bb8b06578
-      internalID: -1980658416
+      spriteID: 79a90466a45634d278e9475910873406
+      internalID: 1979175907
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirt_cooldown_16
+      name: Dirt_cooldown_13
       rect:
         serializedVersion: 2
         x: 128
@@ -491,14 +428,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e69a2856aead74c4db544bee3814176f
-      internalID: 482609214
+      spriteID: 4eecd821755f54d23ad19d21604f68b4
+      internalID: -1274817294
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirt_cooldown_17
+      name: Dirt_cooldown_14
       rect:
         serializedVersion: 2
         x: 256
@@ -512,14 +449,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db5e0e948af41469cb6382337ccdc535
-      internalID: -549849974
+      spriteID: 4d678ef6a729e48ff90786220209c7cd
+      internalID: 589740613
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirt_cooldown_18
+      name: Dirt_cooldown_15
       rect:
         serializedVersion: 2
         x: 384
@@ -533,50 +470,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a2fb2ad5747443228382bd352d3505b
-      internalID: 1205296897
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dirt_cooldown_19
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b51fab6862aad420dae3049de1bf0c0e
-      internalID: -1730281674
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dirt_cooldown_20
-      rect:
-        serializedVersion: 2
-        x: 638
-        y: 384
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cb4054732ee3341ef93175393c8f5c4b
-      internalID: 425850951
+      spriteID: 506a0b5c93e114d7a823beadbfdc9ead
+      internalID: -1942644463
       vertices: []
       indices: 
       edges: []
@@ -584,7 +479,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: d53c9e6a1d60249179ef7d2f1855a422
+    spriteID: 06972304ba46e44528c6b640681620e7
     internalID: 0
     vertices: []
     indices: 
@@ -592,27 +487,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      dirt_cooldown_11: 1148063372
-      dirt_cooldown_19: -1730281674
-      dirt_cooldown_8: -1199026327
-      dirt_cooldown_6: -590848857
-      dirt_cooldown_1: -412784574
-      dirt_cooldown_10: 614470589
-      dirt_cooldown_7: 683599923
-      dirt_cooldown_17: -549849974
-      dirt_cooldown_4: -1755977097
-      dirt_cooldown_20: 425850951
-      dirt_cooldown_9: -959920100
-      dirt_cooldown_13: 686728060
-      dirt_cooldown_16: 482609214
-      dirt_cooldown_18: 1205296897
-      dirt_cooldown_0: -1957921722
-      dirt_cooldown_3: 1836818193
-      dirt_cooldown_15: -1980658416
-      dirt_cooldown_14: 1972097647
-      dirt_cooldown_5: -1803512974
-      dirt_cooldown_2: -464084501
-      dirt_cooldown_12: -353609819
+      Dirt_cooldown_15: -1942644463
+      Dirt_cooldown_13: -1274817294
+      Dirt_cooldown_5: 1783162239
+      Dirt_cooldown_3: 2074878488
+      Dirt_cooldown_11: -2128218118
+      Dirt_cooldown_14: 589740613
+      Dirt_cooldown_8: -917433092
+      Dirt_cooldown_7: -286853548
+      Dirt_cooldown_6: 2092394104
+      Dirt_cooldown_2: -82634408
+      Dirt_cooldown_0: 1082913036
+      Dirt_cooldown_9: -484082124
+      Dirt_cooldown_10: 1338637264
+      Dirt_cooldown_4: 629783668
+      Dirt_cooldown_1: 1486119112
+      Dirt_cooldown_12: 1979175907
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
