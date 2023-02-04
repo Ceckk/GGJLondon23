@@ -7,7 +7,7 @@ public class TicksManager : MonoSingleton<TicksManager>
 {
     [SerializeField] private float _timePerSimpleTick = 1;
     [SerializeField] private float _timePerSpecialTick = 2;
-    [SerializeField] private float _numberOfTicksBeforeSpecialTick = 3;
+    [SerializeField] private float _numberOfTicksBeforeSpecialTick = 4;
 
     [SerializeField] private AudioClip _simpleTickSound;
     [SerializeField] private AudioClip _specialTckSound;
@@ -32,16 +32,19 @@ public class TicksManager : MonoSingleton<TicksManager>
         {
             for (int i = 0; i < _numberOfTicksBeforeSpecialTick; i++)
             {
-                _audioSource.clip = _simpleTickSound;
-                _audioSource.Play();
+                // _audioSource.clip = _simpleTickSound;
+                if (i == 0)
+                {
+                    _audioSource.Play();
+                }
 
                 EventAggregator.Instance.Dispatch<OnSimpleTick>();
 
                 yield return new WaitForSeconds(_timePerSimpleTick);
             }
 
-            _audioSource.clip = _specialTckSound;
-            _audioSource.Play();
+            // _audioSource.clip = _specialTckSound;
+            // _audioSource.Play();
 
             EventAggregator.Instance.Dispatch<OnSpecialTick>();
 

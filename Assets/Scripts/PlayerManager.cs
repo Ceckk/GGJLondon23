@@ -27,12 +27,12 @@ public class PlayerManager : MonoSingleton<PlayerManager>
             _tween.Complete();
         }
         
-        _tween = transform.DOPunchScale(new Vector3(0, -1f, 0), TicksManager.Instance.TimePerSpecialTick * 0.5f);
+        _tween = transform.DOPunchScale(new Vector3(0, 0f, 0), TicksManager.Instance.TimePerSpecialTick * 0.5f);
     }
 
     private void OnTick(IEvent obj)
     {
-        transform.DOPunchScale(new Vector3(0, -0.5f, 0), TicksManager.Instance.TimePerSimpleTick * 0.25f);
+        // transform.DOPunchScale(new Vector3(0, -0.5f, 0), TicksManager.Instance.TimePerSimpleTick * 0.25f);
     }
 
     void Update()
