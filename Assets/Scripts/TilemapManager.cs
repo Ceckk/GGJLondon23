@@ -149,6 +149,11 @@ public class TilemapManager : MonoSingleton<TilemapManager>
     //     }
     // }
 
+    public Vector3Int GetCellPosition(Vector3 pos)
+    {
+        return _tilemap.WorldToCell(pos);
+    }
+
     public TileBase GetTile(Vector3 pos)
     {
         var tpos = _tilemap.WorldToCell(pos);

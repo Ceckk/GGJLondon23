@@ -13,8 +13,8 @@ public class TicksManager : MonoBehaviour
     [SerializeField] private AudioClip _specialTckSound;
     [SerializeField] private AudioSource _audioSource;
 
-    public class OnSimpleTick : IEvent {}
-    public class OnSpecialTick : IEvent {}
+    public class OnSimpleTick : IEvent { }
+    public class OnSpecialTick : IEvent { }
 
     private int _index = 0;
 
@@ -25,20 +25,52 @@ public class TicksManager : MonoBehaviour
 
     private IEnumerator TicksUpdate()
     {
-        while(true)
+        while (true)
         {
             for (int i = 0; i < _numberOfTicksBeforeSpecialTick; i++)
             {
                 _audioSource.clip = _simpleTickSound;
                 _audioSource.Play();
+
                 EventAggregator.Instance.Dispatch<OnSimpleTick>();
+
                 yield return new WaitForSeconds(_timePerSimpleTick);
             }
 
             _audioSource.clip = _specialTckSound;
             _audioSource.Play();
+
             EventAggregator.Instance.Dispatch<OnSpecialTick>();
+
+            HandlePlayerAttack();
+            HandleEnemyBehaviour();
+
             yield return new WaitForSeconds(_timePerSpecialTick);
         }
+    }
+
+    private void HandlePlayerAttack()
+    {
+        var pos = PlayerManager.Instance.transform.position;
+        var tile = TilemapManager.Instance.GetTile(pos);
+
+        if (tile != null)
+        {
+            switch (tile.name)
+            {
+                case "Horizontal":
+                case "Vertical":
+                case "Around":
+                    TilemapManager.Instance.Attack(pos);
+                    EnemyManager.Instance.ResolvePlayerAttack(pos, tile.name);
+                    break;
+            }
+        }
+    }
+
+    private void HandleEnemyBehaviour()
+    {
+        EnemyManager.Instance.ResolveEnemyMovement();
+        EnemyManager.Instance.SpawnEnemies(2);
     }
 }
