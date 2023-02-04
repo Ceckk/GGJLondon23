@@ -32,19 +32,16 @@ public class TicksManager : MonoSingleton<TicksManager>
         {
             for (int i = 0; i < _numberOfTicksBeforeSpecialTick; i++)
             {
-                // _audioSource.clip = _simpleTickSound;
-                if (i == 0)
-                {
-                    _audioSource.Play();
-                }
+                _audioSource.clip = _simpleTickSound;
+                _audioSource.Play();
 
                 EventAggregator.Instance.Dispatch<OnSimpleTick>();
 
                 yield return new WaitForSeconds(_timePerSimpleTick);
             }
 
-            // _audioSource.clip = _specialTckSound;
-            // _audioSource.Play();
+            _audioSource.clip = _specialTckSound;
+            _audioSource.Play();
 
             EventAggregator.Instance.Dispatch<OnSpecialTick>();
 
