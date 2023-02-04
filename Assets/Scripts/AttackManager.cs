@@ -5,14 +5,6 @@ using UnityEngine;
 
 public class AttackManager : MonoBehaviour
 {
-    public enum AttakType
-    {
-        None,
-        Vertical,
-        Horizontal,
-        Around
-    }
-
     void Start()
     {
         EventAggregator.Instance.AddListener<TicksManager.OnSpecialTick>(OnSpecialTick);
@@ -31,28 +23,24 @@ public class AttackManager : MonoBehaviour
 
     private void HandlePlayerAttack()
     {
-        var attackType = GetAttackType(PlayerManager.Instance.transform.position);
-        Debug.Log(attackType);
-    }
-
-    private AttakType GetAttackType(Vector3 position)
-    {
-        var tile = TilemapManager.Instance.GetTile(position);
+        var pos = PlayerManager.Instance.transform.position;
+        var tile = TilemapManager.Instance.GetTile(pos);
 
         if (tile != null)
         {
             switch (tile.name)
             {
                 case "Horizontal":
-                    return AttakType.Horizontal;
+                    TilemapManager.Instance.HorizontalAttack(pos);
+                    break;
                 case "Vertical":
-                    return AttakType.Vertical;
+                    TilemapManager.Instance.VerticalAttack(pos);
+                    break;
                 case "Around":
-                    return AttakType.Around;
+                    TilemapManager.Instance.AroundAttack(pos);
+                    break;
             }
         }
-
-        return AttakType.None;
     }
 
     private void HandleEnemyBehaviour()

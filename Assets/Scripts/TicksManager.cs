@@ -29,14 +29,12 @@ public class TicksManager : MonoBehaviour
         {
             for (int i = 0; i < _numberOfTicksBeforeSpecialTick; i++)
             {
-                Debug.Log("simple tick");
                 _audioSource.clip = _simpleTickSound;
                 _audioSource.Play();
                 EventAggregator.Instance.Dispatch<OnSimpleTick>();
                 yield return new WaitForSeconds(_timePerSimpleTick);
             }
 
-            Debug.Log("special tick");
             _audioSource.clip = _specialTckSound;
             _audioSource.Play();
             EventAggregator.Instance.Dispatch<OnSpecialTick>();
