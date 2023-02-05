@@ -23,6 +23,10 @@ public class EnemyManager : MonoSingleton<EnemyManager>
         var spawnPositions = new List<Vector3>();
 
         _reservedPositions.Add(PlayerManager.Instance.transform.position);
+        _reservedPositions.Add(PlayerManager.Instance.transform.position + Vector3.up * TilemapManager.Instance.CellSize);
+        _reservedPositions.Add(PlayerManager.Instance.transform.position + Vector3.down * TilemapManager.Instance.CellSize);
+        _reservedPositions.Add(PlayerManager.Instance.transform.position + Vector3.left * TilemapManager.Instance.CellSize);
+        _reservedPositions.Add(PlayerManager.Instance.transform.position + Vector3.right * TilemapManager.Instance.CellSize);
 
         for (float x = TilemapManager.MIN_VALUE; x <= TilemapManager.MAX_VALUE; x += TilemapManager.Instance.CellSize)
         {
