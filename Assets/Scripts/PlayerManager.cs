@@ -99,7 +99,21 @@ public class PlayerManager : MonoSingleton<PlayerManager>
 
     public void VerticalAttack()
     {
-        // throw new NotImplementedException();
+        var bounds = TilemapManager.Instance.MapBounds;
+        var cellSize = TilemapManager.Instance.CellSize;
+
+        for (float y = TilemapManager.MIN_VALUE; y <= TilemapManager.MAX_VALUE; y += cellSize)
+        {
+            var pos = new Vector3(transform.position.x, y);
+            if (pos.y > transform.position.y)
+            {
+                StartCoroutine(SpawnObject(y < TilemapManager.MAX_VALUE ? _upAttackObjs[0] : _upAttackObjs[1], pos, (pos.y - transform.position.y) / cellSize / 10f));
+            }
+            else if (pos.y < transform.position.y)
+            {
+                StartCoroutine(SpawnObject(y > TilemapManager.MIN_VALUE ? _downAttackObjs[0] : _downAttackObjs[1], pos, (transform.position.y - pos.y) / cellSize / 10f));
+            }
+        }
     }
 
     public void AroundAttack()
