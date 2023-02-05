@@ -74,48 +74,63 @@ public class EnemyManager : MonoSingleton<EnemyManager>
 
     public void ResolvePlayerAttack(Vector3 pos, string attackType)
     {
-        foreach (var enemy in _spawnedEnemyList)
-        {
-            var enemyCellPos = TilemapManager.Instance.GetCellPosition(enemy.transform.position);
-            var bounds = TilemapManager.Instance.MapBounds;
-            var cellSize = TilemapManager.Instance.CellSize;
+        var cellSize = TilemapManager.Instance.CellSize;
 
-            switch (attackType)
-            {
-                case "Hay":
-                    for (float x = bounds.min.x; x < bounds.max.x; x += cellSize)
+        switch (attackType)
+        {
+            case "Hay":
+
+                PlayerManager.Instance.HorizontalAttack();
+
+                for (float x = TilemapManager.MIN_VALUE; x <= TilemapManager.MAX_VALUE; x += cellSize)
+                {
+                    foreach (var enemy in _spawnedEnemyList)
                     {
+                        var enemyCellPos = TilemapManager.Instance.GetCellPosition(enemy.transform.position);
                         var tpos = TilemapManager.Instance.GetCellPosition(new Vector3(x, pos.y));
                         if (enemyCellPos == tpos)
                         {
                             Hit(enemy);
+                            break;
                         }
                     }
-                    break;
-                case "Flowers":
-                    for (float y = bounds.min.y; y < bounds.max.y; y += cellSize)
+                }
+                break;
+            case "Flowers":
+                PlayerManager.Instance.VerticalAttack();
+                for (float y = TilemapManager.MIN_VALUE; y <= TilemapManager.MAX_VALUE; y += cellSize)
+                {
+                    foreach (var enemy in _spawnedEnemyList)
                     {
+                        var enemyCellPos = TilemapManager.Instance.GetCellPosition(enemy.transform.position);
                         var tpos = TilemapManager.Instance.GetCellPosition(new Vector3(pos.x, y));
                         if (enemyCellPos == tpos)
                         {
                             Hit(enemy);
+                            break;
                         }
                     }
-                    break;
-                case "Water":
-                    for (float x = -cellSize; x <= cellSize; x += cellSize)
+                }
+                break;
+            case "Water":
+                PlayerManager.Instance.AroundAttack();
+                for (float x = -cellSize; x <= cellSize; x += cellSize)
+                {
+                    for (float y = -cellSize; y <= cellSize; y += cellSize)
                     {
-                        for (float y = -cellSize; y <= cellSize; y += cellSize)
+                        foreach (var enemy in _spawnedEnemyList)
                         {
+                            var enemyCellPos = TilemapManager.Instance.GetCellPosition(enemy.transform.position);
                             var tpos = TilemapManager.Instance.GetCellPosition(pos + new Vector3(x, y));
                             if (enemyCellPos == tpos)
                             {
                                 Hit(enemy);
+                                break;
                             }
                         }
                     }
-                    break;
-            }
+                }
+                break;
         }
 
         _spawnedEnemyList.RemoveAll(e => e.IsDead);

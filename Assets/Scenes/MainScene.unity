@@ -198,6 +198,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _movementAnimationSpeed: 0.25
+  _leftAttackObjs:
+  - {fileID: 8761133460907592180, guid: 45529ce7404b24bd09662f5f5edf84f3, type: 3}
+  - {fileID: 3761957285692045207, guid: 41d8c006a65f6490cb6f9445c91e73a8, type: 3}
+  _rightAttackObjs:
+  - {fileID: 7322612909508390829, guid: 7e244e5af85a842c39994755a043ded9, type: 3}
+  - {fileID: 8831501412425858146, guid: 7c8f078041a3a4a189e7f506a5bb8646, type: 3}
+  _upAttackObjs:
+  - {fileID: 7322612909508390829, guid: 7e244e5af85a842c39994755a043ded9, type: 3}
+  - {fileID: 8831501412425858146, guid: 7c8f078041a3a4a189e7f506a5bb8646, type: 3}
+  _downAttackObjs:
+  - {fileID: 8761133460907592180, guid: 45529ce7404b24bd09662f5f5edf84f3, type: 3}
+  - {fileID: 3761957285692045207, guid: 41d8c006a65f6490cb6f9445c91e73a8, type: 3}
 --- !u!4 &420567105
 Transform:
   m_ObjectHideFlags: 0
@@ -865,7 +877,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: ba1e96977829a4dbba991985288069b2, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
