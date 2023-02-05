@@ -219,7 +219,7 @@ public class PlayerManager : MonoSingleton<PlayerManager>
 
     private IEnumerator EndScreen()
     {
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(2);
         GameManager.Instance.End();
     }
 }
