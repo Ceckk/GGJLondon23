@@ -7,6 +7,7 @@ using UnityEngine;
 public class PlayerManager : MonoSingleton<PlayerManager>
 {
     [SerializeField] private float _movementAnimationSpeed = 0.25f;
+    [SerializeField] private Animator _animator;
     [SerializeField] private GameObject[] _leftAttackObjs;
     [SerializeField] private GameObject[] _rightAttackObjs;
     [SerializeField] private GameObject[] _upAttackObjs;
@@ -15,12 +16,14 @@ public class PlayerManager : MonoSingleton<PlayerManager>
     private Tweener _tween;
 
     private List<GameObject> _attackObjects = new List<GameObject>();
+    private bool _isDead = false;
+
+    public bool IsDead { get => _isDead; }
 
     void Start()
     {
         EventAggregator.Instance.AddListener<TicksManager.OnSimpleTick>(OnTick);
         EventAggregator.Instance.AddListener<TicksManager.OnSpecialTick>(OnSpecialTick);
-        TilemapManager.Instance.PlayerMoved(transform.position, transform.position);
     }
 
     void OnDestroy()
@@ -31,6 +34,8 @@ public class PlayerManager : MonoSingleton<PlayerManager>
 
     private void OnSpecialTick(IEvent obj)
     {
+        _animator.SetBool("IsAttacking", true);
+
         if (_tween.IsActive())
         {
             _tween.Complete();
@@ -47,13 +52,17 @@ public class PlayerManager : MonoSingleton<PlayerManager>
         }
 
         _attackObjects = new List<GameObject>();
-        // transform.DOPunchScale(new Vector3(0, -0.5f, 0), TicksManager.Instance.TimePerSimpleTick * 0.25f);
     }
 
     void Update()
     {
+        if (_isDead)
+            return;
+
         if (!_tween.IsActive())
         {
+            _animator.SetBool("IsAttacking", false);
+
             var movement = TilemapManager.Instance.CellSize;
             var oldPos = transform.position;
 
@@ -125,5 +134,13 @@ public class PlayerManager : MonoSingleton<PlayerManager>
     {
         yield return new WaitForSeconds(delay);
         _attackObjects.Add(Instantiate(obj, pos, Quaternion.identity));
+    }
+
+    public void Die()
+    {
+        _isDead = true;
+        _animator.SetBool("IsDead", true);
+
+        Debug.Log("GAME OVER");
     }
 }

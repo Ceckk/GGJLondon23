@@ -28,10 +28,13 @@ public class TicksManager : MonoSingleton<TicksManager>
 
     private IEnumerator TicksUpdate()
     {
-        while (true)
+        while (!PlayerManager.Instance.IsDead)
         {
             for (int i = 0; i < _numberOfTicksBeforeSpecialTick; i++)
             {
+                if (PlayerManager.Instance.IsDead)
+                    yield break;
+
                 _audioSource.clip = _simpleTickSound;
                 _audioSource.Play();
 
@@ -44,6 +47,9 @@ public class TicksManager : MonoSingleton<TicksManager>
 
                 yield return new WaitForSeconds(_timePerSimpleTick);
             }
+
+            if (PlayerManager.Instance.IsDead)
+                yield break;
 
             _audioSource.clip = _specialTckSound;
             _audioSource.Play();

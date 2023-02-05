@@ -16,7 +16,7 @@ public class Projectile : MonoBehaviour
 
         if (Vector3.Distance(transform.position, PlayerManager.Instance.transform.position) <= 0.5f)
         {
-            GameManager.Instance.Restart();
+            PlayerManager.Instance.Die();
         }
     }
 }

@@ -145,7 +145,7 @@ public class EnemyManager : MonoSingleton<EnemyManager>
 
             if (enemyCellPos == playerCellPos)
             {
-                GameManager.Instance.Restart();
+                PlayerManager.Instance.Die();
                 return true;
             }
         }
@@ -160,7 +160,7 @@ public class EnemyManager : MonoSingleton<EnemyManager>
 
         if (enemyCellPos == playerCellPos)
         {
-            GameManager.Instance.Restart();
+            PlayerManager.Instance.Die();
             return true;
         }
 

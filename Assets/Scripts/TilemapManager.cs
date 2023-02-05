@@ -89,12 +89,6 @@ public class TilemapManager : MonoSingleton<TilemapManager>
         _tilemap.RefreshAllTiles();
     }
 
-    public void PlayerMoved(Vector3 oldPos, Vector3 newPos)
-    {
-        // ChangeTile(oldPos, _tiles[0]);
-        // ChangeTile(newPos, _tiles[1]);
-    }
-
     public void Attack(Vector3 pos)
     {
         Debug.Log("Attack");
@@ -105,54 +99,7 @@ public class TilemapManager : MonoSingleton<TilemapManager>
         {
             _cooldownTilesDictionary[tpos] = COOLDOWN_MAX;
         }
-
-
-        // for (float x = -CellSize; x <= CellSize; x += CellSize)
-        // {
-        //     for (float y = -CellSize; y <= CellSize; y += CellSize)
-        //     {
-        //         var tpos = _tilemap.WorldToCell(pos + new Vector3(x, y));
-        //         if (ChangeTile(tpos, _coolDownTiles[0]))
-        //         {
-        //             _cooldownTilesDictionary[tpos] = COOLDOWN_MAX;
-        //         }
-        //     }
-        // }
     }
-
-    // public void HorizontalAttack(Vector3 pos)
-    // {
-    //     Debug.Log("HorizontalAttack");
-
-    //     _tilesDictionary[_tilemap.WorldToCell(pos)] = UnityEngine.Random.Range(0, _tiles.Length);
-
-    //     var bounds = _tilemap.localBounds;
-    //     for (float x = bounds.min.x; x < bounds.max.x; x += CellSize)
-    //     {
-    //         var tpos = _tilemap.WorldToCell(new Vector3(x, pos.y));
-    //         if (ChangeTile(tpos, _coolDownTiles[0]))
-    //         {
-    //             _cooldownTilesDictionary[tpos] = COOLDOWN_MAX;
-    //         }
-    //     }
-    // }
-
-    // public void VerticalAttack(Vector3 pos)
-    // {
-    //     Debug.Log("VerticalAttack");
-
-    //     _tilesDictionary[_tilemap.WorldToCell(pos)] = UnityEngine.Random.Range(0, _tiles.Length);
-
-    //     var bounds = _tilemap.localBounds;
-    //     for (float y = bounds.min.y; y < bounds.max.y; y += CellSize)
-    //     {
-    //         var tpos = _tilemap.WorldToCell(new Vector3(pos.x, y));
-    //         if (ChangeTile(tpos, _coolDownTiles[0]))
-    //         {
-    //             _cooldownTilesDictionary[tpos] = COOLDOWN_MAX;
-    //         }
-    //     }
-    // }
 
     public Vector3Int GetCellPosition(Vector3 pos)
     {
