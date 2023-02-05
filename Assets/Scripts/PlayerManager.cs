@@ -8,6 +8,7 @@ public class PlayerManager : MonoSingleton<PlayerManager>
 {
     [SerializeField] private float _movementAnimationSpeed = 0.25f;
     [SerializeField] private Animator _animator;
+    [SerializeField] private SpriteRenderer _sprite;
     [SerializeField] private GameObject[] _leftAttackObjs;
     [SerializeField] private GameObject[] _rightAttackObjs;
     [SerializeField] private GameObject[] _upAttackObjs;
@@ -73,6 +74,7 @@ public class PlayerManager : MonoSingleton<PlayerManager>
             }
             else if (oldPos.x > TilemapManager.MIN_VALUE && (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow)))
             {
+                _sprite.flipX = false;
                 _tween = transform.DOLocalMoveX(-movement, _movementAnimationSpeed);
             }
             else if (oldPos.y > TilemapManager.MIN_VALUE && (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow)))
@@ -81,6 +83,7 @@ public class PlayerManager : MonoSingleton<PlayerManager>
             }
             else if (oldPos.x < TilemapManager.MAX_VALUE && (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow)))
             {
+                _sprite.flipX = true;
                 _tween = transform.DOLocalMoveX(movement, _movementAnimationSpeed);
             }
 
