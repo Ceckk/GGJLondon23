@@ -12,6 +12,8 @@ public class Enemy : MonoBehaviour
     [SerializeField] private bool _isDead = false;
     [SerializeField] private float _movementAnimationSpeed = 0.25f;
     [SerializeField] protected Animator _animator;
+    [SerializeField] protected SpriteRenderer _sprite;
+    [SerializeField] protected SpriteRenderer _shadow;
 
     private TweenerCore<Vector3, Vector3, VectorOptions> _tween;
 
@@ -103,6 +105,7 @@ public class Enemy : MonoBehaviour
         _isDead = true;
         _animator.SetBool("IsDead", true);
 
-        Destroy(gameObject, 5);
+        _shadow.gameObject.SetActive(false);
+        _sprite.DOFade(0, 1f).OnComplete(() => Destroy(gameObject));
     }
 }

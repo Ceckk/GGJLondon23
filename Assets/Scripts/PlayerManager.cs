@@ -9,6 +9,7 @@ public class PlayerManager : MonoSingleton<PlayerManager>
     [SerializeField] private float _movementAnimationSpeed = 0.25f;
     [SerializeField] private Animator _animator;
     [SerializeField] private SpriteRenderer _sprite;
+    [SerializeField] private SpriteRenderer _shadow;
     [SerializeField] private GameObject[] _leftAttackObjs;
     [SerializeField] private GameObject[] _rightAttackObjs;
     [SerializeField] private GameObject[] _upAttackObjs;
@@ -37,6 +38,7 @@ public class PlayerManager : MonoSingleton<PlayerManager>
     private void OnSpecialTick(IEvent obj)
     {
         _animator.SetBool("IsAttacking", true);
+        _shadow.gameObject.SetActive(false);
 
         if (_tween.IsActive())
         {
@@ -49,6 +51,7 @@ public class PlayerManager : MonoSingleton<PlayerManager>
     private void OnTick(IEvent e)
     {
         _animator.SetBool("IsAttacking", false);
+        _shadow.gameObject.SetActive(true);
 
         foreach(var obj in _attackObjects)
         {
@@ -92,6 +95,7 @@ public class PlayerManager : MonoSingleton<PlayerManager>
             if (_tween.IsActive())
             {
                 _animator.SetBool("IsAttacking", false);
+                _shadow.gameObject.SetActive(true);
 
                 foreach (var obj in _attackObjects)
                 {
@@ -156,6 +160,7 @@ public class PlayerManager : MonoSingleton<PlayerManager>
     {
         _isDead = true;
         _animator.SetBool("IsDead", true);
+        _shadow.gameObject.SetActive(false);
 
         foreach (var obj in _attackObjects)
         {

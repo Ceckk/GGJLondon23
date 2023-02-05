@@ -200,6 +200,7 @@ MonoBehaviour:
   _movementAnimationSpeed: 0.25
   _animator: {fileID: 499961329}
   _sprite: {fileID: 499961327}
+  _shadow: {fileID: 477363405}
   _leftAttackObjs:
   - {fileID: 8761133460907592180, guid: 45529ce7404b24bd09662f5f5edf84f3, type: 3}
   - {fileID: 3761957285692045207, guid: 41d8c006a65f6490cb6f9445c91e73a8, type: 3}
@@ -372,7 +373,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: c215dd2826170214b8b90d92a3974fe5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
