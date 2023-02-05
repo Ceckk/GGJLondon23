@@ -2,16 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.UI;
 
 public class TicksManager : MonoSingleton<TicksManager>
 {
     [SerializeField] private float _timePerSimpleTick = 1;
     [SerializeField] private float _timePerSpecialTick = 2;
-    [SerializeField] private float _numberOfTicksBeforeSpecialTick = 4;
+    [SerializeField] private int _numberOfTicksBeforeSpecialTick = 3;
 
     [SerializeField] private AudioClip _simpleTickSound;
     [SerializeField] private AudioClip _specialTckSound;
     [SerializeField] private AudioSource _audioSource;
+
+    [SerializeField] private Image _beatImage;
+    [SerializeField] private Sprite[] _beatsSprites;
 
     public class OnSimpleTick : IEvent { }
     public class OnSpecialTick : IEvent { }
@@ -35,6 +39,8 @@ public class TicksManager : MonoSingleton<TicksManager>
                 if (PlayerManager.Instance.IsDead)
                     yield break;
 
+                _beatImage.sprite = _beatsSprites[i];
+
                 _audioSource.clip = _simpleTickSound;
                 _audioSource.Play();
 
@@ -51,6 +57,8 @@ public class TicksManager : MonoSingleton<TicksManager>
 
             if (PlayerManager.Instance.IsDead)
                 yield break;
+
+            _beatImage.sprite = _beatsSprites[_numberOfTicksBeforeSpecialTick];
 
             _audioSource.clip = _specialTckSound;
             _audioSource.Play();
