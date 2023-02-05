@@ -13,11 +13,12 @@ public class GameManager : MonoSingleton<GameManager>
     public void UpdateHighScore()
     {
         _highscore = EnemyManager.Instance.SpawnRound * EnemyManager.Instance.SpawnRound * 10 + EnemyManager.Instance.KillCount * 100;
-        _highscoreLabel.text = "Highscore: " + _highscore;
+        _highscoreLabel.text = _highscore.ToString();
     }
 
-    public void Restart()
+    public void End()
     {
-        // SceneManager.LoadScene(0);
+        PlayerPrefs.SetInt("score", _highscore);
+        SceneManager.LoadScene(2);
     }
 }

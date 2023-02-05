@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
@@ -168,5 +167,13 @@ public class PlayerManager : MonoSingleton<PlayerManager>
         }
 
         Debug.Log("GAME OVER");
+
+        StartCoroutine(EndScreen());
+    }
+
+    private IEnumerator EndScreen()
+    {
+        yield return new WaitForSeconds(3);
+        GameManager.Instance.End();
     }
 }
