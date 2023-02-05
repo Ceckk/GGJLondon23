@@ -54,21 +54,24 @@ public class EnemyManager : MonoSingleton<EnemyManager>
             }
         }
 
-        for (int i = 0; i < 2; i++)
+
+        if (_spawnRound % 2 == 0)
         {
-            Enemy enemy = null;
-            if (_spawnRound % 2 == 0)
-            {
-                enemy = Instantiate(_enemyPrefabs[UnityEngine.Random.Range(1, _enemyPrefabs.Length)], transform);
-            }
-            else
-            {
-                enemy = Instantiate(_enemyPrefabs[0], transform);
-            }
+            var enemy = Instantiate(_enemyPrefabs[UnityEngine.Random.Range(1, _enemyPrefabs.Length)], transform);
             var spawnPos = spawnPositions[UnityEngine.Random.Range(0, spawnPositions.Count)];
-            spawnPositions.Remove(spawnPos);
             enemy.transform.position = spawnPos;
             _spawnedEnemyList.Add(enemy);
+        }
+        else
+        {
+            for (int i = 0; i < 2; i++)
+            {
+                var enemy = Instantiate(_enemyPrefabs[0], transform);
+                var spawnPos = spawnPositions[UnityEngine.Random.Range(0, spawnPositions.Count)];
+                spawnPositions.Remove(spawnPos);
+                enemy.transform.position = spawnPos;
+                _spawnedEnemyList.Add(enemy);
+            }
         }
     }
 
