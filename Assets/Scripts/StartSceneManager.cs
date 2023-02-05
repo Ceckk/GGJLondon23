@@ -8,8 +8,8 @@ using UnityEngine.UI;
 public class StartSceneManager : MonoBehaviour
 {
     [SerializeField] private Image _image;
-    [SerializeField] private Sprite[] _startFrames;
 
+    [SerializeField] private GameObject[] _menus;
     [SerializeField] private GameObject[] _pages;
 
     private int _pageIndex = 0;
@@ -44,18 +44,18 @@ public class StartSceneManager : MonoBehaviour
                 }
                 else
                 {
-                    _menuIndex = _startFrames.Length - 1;
+                    _menuIndex = _menus.Length - 1;
                 }
 
-                _image.sprite = _startFrames[_menuIndex];
+                ChangeMenu(_menuIndex);
             }
 
             if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
             {
                 _menuIndex++;
-                _menuIndex = _menuIndex % _startFrames.Length;
+                _menuIndex = _menuIndex % _menus.Length;
 
-                _image.sprite = _startFrames[_menuIndex];
+                ChangeMenu(_menuIndex);
             }
         }
         else
@@ -74,6 +74,16 @@ public class StartSceneManager : MonoBehaviour
         for (int i = 0; i < _pages.Length; i++)
         {
             _pages[i].SetActive(i == index);
+        }
+    }
+
+    private void ChangeMenu(int index)
+    {
+        _menuIndex = index;
+
+        for (int i = 0; i < _pages.Length; i++)
+        {
+            _menus[i].SetActive(i == index);
         }
     }
 }
