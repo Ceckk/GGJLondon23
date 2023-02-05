@@ -42,6 +42,7 @@ public class TicksManager : MonoSingleton<TicksManager>
 
                 if (i == 0)
                 {
+                    EnemyManager.Instance.ResolveEnemyMovement();
                     EnemyManager.Instance.SpawnEnemies();
                 }
 
@@ -57,7 +58,6 @@ public class TicksManager : MonoSingleton<TicksManager>
             EventAggregator.Instance.Dispatch<OnSpecialTick>();
 
             HandlePlayerAttack();
-            HandleEnemyBehaviour();
 
             yield return new WaitForSeconds(_timePerSpecialTick);
         }
@@ -73,10 +73,5 @@ public class TicksManager : MonoSingleton<TicksManager>
             TilemapManager.Instance.Attack(pos);
             EnemyManager.Instance.ResolvePlayerAttack(pos, tile.name);
         }
-    }
-
-    private void HandleEnemyBehaviour()
-    {
-        EnemyManager.Instance.ResolveEnemyMovement();
     }
 }
