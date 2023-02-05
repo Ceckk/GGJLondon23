@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
@@ -15,6 +16,8 @@ public class PlayerManager : MonoSingleton<PlayerManager>
     [SerializeField] private GameObject[] _downAttackObjs;
     [SerializeField] private GameObject _aroundAttackObj;
 
+    [SerializeField] private GameObject[] _attackIndicators;
+
     private Tweener _tween;
 
     private List<GameObject> _attackObjects = new List<GameObject>();
@@ -22,10 +25,14 @@ public class PlayerManager : MonoSingleton<PlayerManager>
 
     public bool IsDead { get => _isDead; }
 
-    void Start()
+    IEnumerator Start()
     {
         EventAggregator.Instance.AddListener<TicksManager.OnSimpleTick>(OnTick);
         EventAggregator.Instance.AddListener<TicksManager.OnSpecialTick>(OnSpecialTick);
+
+        yield return new WaitForEndOfFrame();
+
+        UpdateIndicator();
     }
 
     void OnDestroy()
@@ -52,7 +59,7 @@ public class PlayerManager : MonoSingleton<PlayerManager>
         _animator.SetBool("IsAttacking", false);
         _shadow.gameObject.SetActive(true);
 
-        foreach(var obj in _attackObjects)
+        foreach (var obj in _attackObjects)
         {
             Destroy(obj);
         }
@@ -89,7 +96,12 @@ public class PlayerManager : MonoSingleton<PlayerManager>
                 _tween = transform.DOLocalMoveX(movement, _movementAnimationSpeed);
             }
 
-            _tween.SetRelative().SetEase(Ease.InOutSine).OnComplete(() => EnemyManager.Instance.CheckPlayerHit());
+            _tween.SetRelative().SetEase(Ease.InOutSine).OnStart(() => ChangeIndicator(-1)).
+            OnComplete(() =>
+            {
+                UpdateIndicator();
+                EnemyManager.Instance.CheckPlayerHit();
+            });
 
             if (_tween.IsActive())
             {
@@ -106,8 +118,39 @@ public class PlayerManager : MonoSingleton<PlayerManager>
         }
     }
 
+    private void UpdateIndicator()
+    {
+        var tile = TilemapManager.Instance.GetTile(transform.position);
+
+        switch (tile.name)
+        {
+            case "Hay":
+                ChangeIndicator(0);
+                break;
+            case "Flowers":
+                ChangeIndicator(1);
+                break;
+            case "Water":
+                ChangeIndicator(2);
+                break;
+            default:
+                ChangeIndicator(-1);
+                break;
+        }
+
+    }
+
+    private void ChangeIndicator(int index)
+    {
+        for (var i = 0; i < _attackIndicators.Length; i++)
+        {
+            _attackIndicators[i].SetActive(i == index);
+        }
+    }
+
     public void HorizontalAttack()
     {
+        UpdateIndicator();
         var bounds = TilemapManager.Instance.MapBounds;
         var cellSize = TilemapManager.Instance.CellSize;
 
@@ -127,6 +170,7 @@ public class PlayerManager : MonoSingleton<PlayerManager>
 
     public void VerticalAttack()
     {
+        UpdateIndicator();
         var bounds = TilemapManager.Instance.MapBounds;
         var cellSize = TilemapManager.Instance.CellSize;
 
@@ -146,6 +190,7 @@ public class PlayerManager : MonoSingleton<PlayerManager>
 
     public void AroundAttack()
     {
+        UpdateIndicator();
         _attackObjects.Add(Instantiate(_aroundAttackObj, transform.position, Quaternion.identity));
     }
 
@@ -161,6 +206,7 @@ public class PlayerManager : MonoSingleton<PlayerManager>
         _animator.SetBool("IsDead", true);
         _shadow.gameObject.SetActive(false);
 
+        ChangeIndicator(-1);
         foreach (var obj in _attackObjects)
         {
             Destroy(obj);
