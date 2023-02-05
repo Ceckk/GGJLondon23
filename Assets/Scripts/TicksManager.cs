@@ -37,6 +37,11 @@ public class TicksManager : MonoSingleton<TicksManager>
 
                 EventAggregator.Instance.Dispatch<OnSimpleTick>();
 
+                if (i == 0)
+                {
+                    EnemyManager.Instance.SpawnEnemies();
+                }
+
                 yield return new WaitForSeconds(_timePerSimpleTick);
             }
 
@@ -67,6 +72,5 @@ public class TicksManager : MonoSingleton<TicksManager>
     private void HandleEnemyBehaviour()
     {
         EnemyManager.Instance.ResolveEnemyMovement();
-        EnemyManager.Instance.SpawnEnemies();
     }
 }
