@@ -12,6 +12,7 @@ public class PlayerManager : MonoSingleton<PlayerManager>
     [SerializeField] private GameObject[] _rightAttackObjs;
     [SerializeField] private GameObject[] _upAttackObjs;
     [SerializeField] private GameObject[] _downAttackObjs;
+    [SerializeField] private GameObject _aroundAttackObj;
 
     private Tweener _tween;
 
@@ -46,6 +47,8 @@ public class PlayerManager : MonoSingleton<PlayerManager>
 
     private void OnTick(IEvent e)
     {
+        _animator.SetBool("IsAttacking", false);
+
         foreach(var obj in _attackObjects)
         {
             Destroy(obj);
@@ -61,8 +64,6 @@ public class PlayerManager : MonoSingleton<PlayerManager>
 
         if (!_tween.IsActive())
         {
-            _animator.SetBool("IsAttacking", false);
-
             var movement = TilemapManager.Instance.CellSize;
             var oldPos = transform.position;
 
@@ -84,6 +85,18 @@ public class PlayerManager : MonoSingleton<PlayerManager>
             }
 
             _tween.SetRelative().SetEase(Ease.InOutSine).OnComplete(() => EnemyManager.Instance.CheckPlayerHit());
+
+            if (_tween.IsActive())
+            {
+                _animator.SetBool("IsAttacking", false);
+
+                foreach (var obj in _attackObjects)
+                {
+                    Destroy(obj);
+                }
+
+                _attackObjects = new List<GameObject>();
+            }
         }
     }
 
@@ -127,7 +140,7 @@ public class PlayerManager : MonoSingleton<PlayerManager>
 
     public void AroundAttack()
     {
-        // throw new NotImplementedException();
+        _attackObjects.Add(Instantiate(_aroundAttackObj, transform.position, Quaternion.identity));
     }
 
     private IEnumerator SpawnObject(GameObject obj, Vector3 pos, float delay)
