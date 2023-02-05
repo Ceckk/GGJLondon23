@@ -157,6 +157,11 @@ public class PlayerManager : MonoSingleton<PlayerManager>
         _isDead = true;
         _animator.SetBool("IsDead", true);
 
+        foreach (var obj in _attackObjects)
+        {
+            Destroy(obj);
+        }
+
         Debug.Log("GAME OVER");
     }
 }

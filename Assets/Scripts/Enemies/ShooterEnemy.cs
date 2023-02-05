@@ -15,6 +15,7 @@ public class ShooterEnemy : Enemy
 
     private void Shoot(Vector3 position)
     {
+        _animator.SetTrigger("Shoot");
         Instantiate(_projectilePrefab, transform.position, Quaternion.LookRotation(position - transform.position));
     }
 }

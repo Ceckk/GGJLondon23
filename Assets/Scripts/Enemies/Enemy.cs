@@ -11,10 +11,22 @@ public class Enemy : MonoBehaviour
     [SerializeField] private int _hp = 1;
     [SerializeField] private bool _isDead = false;
     [SerializeField] private float _movementAnimationSpeed = 0.25f;
+    [SerializeField] protected Animator _animator;
 
     private TweenerCore<Vector3, Vector3, VectorOptions> _tween;
 
-    public int Hp { get => _hp; set => _hp = value; }
+    public int Hp {
+        get => _hp;
+        set
+        {
+            if (value < _hp && value != 0)
+            {
+                _animator.SetBool("IsHurt", true);
+            }
+
+            _hp = value;
+        }
+    }
     public bool IsDead { get => _isDead; set => _isDead = value; }
 
     void Start()
@@ -89,8 +101,8 @@ public class Enemy : MonoBehaviour
     public void Die()
     {
         _isDead = true;
+        _animator.SetBool("IsDead", true);
 
-        // TODO death animation -> Destroy
-        Destroy(gameObject);
+        Destroy(gameObject, 5);
     }
 }
